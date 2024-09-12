@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 12 Sep 2024 14:58:28 &#43;0000</lastBuildDate>
+        <lastBuildDate>Thu, 12 Sep 2024 15:00:25 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -109,31 +109,6 @@
                                     <category domain="https://example.com/tags/git/">Git</category>
                                 
                             
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>hello world</title>
-                <link>https://example.com/posts/hello_world/</link>
-                <guid isPermaLink="true">https://example.com/posts/hello_world/</guid>
-                <pubDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</pubDate>
-                
-                    <author>reuixiy@gmail.com (reuixiy)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;hello world&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
                         
                     
                 
