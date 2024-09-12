@@ -2,17 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/tags/gihub/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/git/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.com/</loc>
-    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:26+00:00</lastmod>
   </url><url>
     <loc>https://example.com/about/</loc>
-    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:26+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/posts/delete-github-commit/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/github/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/hello_world/</loc>
-    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:26+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/hugo/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
@@ -30,12 +42,12 @@
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/</loc>
-    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:26+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/</loc>
-    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:26+00:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/</loc>
-    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:26+00:00</lastmod>
   </url>
 </urlset>
