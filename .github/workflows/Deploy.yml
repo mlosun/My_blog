@@ -1,0 +1,45 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+    # 当推送到 main 分支时触发
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    # 运行在最新版本的 Ubuntu 上
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true # 确保检出子模块
+          fetch-depth: 0    # 获取完整历史记录
+        # 检出仓库代码并包含子模块
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+          extended: true
+        # 设置 Hugo，安装最新版本的 Hugo 扩展版
+
+      - name: Update submodules
+        run: git submodule update --init --recursive
+        # 初始化并更新子模块
+
+      - name: Build
+        run: hugo
+        # 运行 Hugo 命令构建静态网站
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.ACTION_ACCESS_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
+        # 部署到 gh-pages 分支
+        # 使用由 GitHub 自动生成的 ACTION_ACCESS_TOKEN 进行身份验证
+        # 将构建后的 ./public 目录中的文件发布到 gh-pages 分支
