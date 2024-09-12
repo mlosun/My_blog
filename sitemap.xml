@@ -3,21 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2024-09-12T14:56:29+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
   </url><url>
     <loc>https://example.com/about/</loc>
-    <lastmod>2024-09-12T14:56:29+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/github/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/hello_world/</loc>
-    <lastmod>2024-09-12T14:56:29+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/hugo/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/obsidian/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/posts/obsidian-github-hugo/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/%E5%8F%91%E5%B8%83/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/%E6%8A%98%E8%85%BE/</loc>
+    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/</loc>
-    <lastmod>2024-09-12T14:56:29+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/</loc>
-    <lastmod>2024-09-12T14:56:29+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
   </url><url>
     <loc>https://example.com/posts/</loc>
-    <lastmod>2024-09-12T14:56:29+00:00</lastmod>
+    <lastmod>2024-09-12T14:58:10+00:00</lastmod>
   </url>
 </urlset>
