@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/tags/gihub/</loc>
+    <loc>https://mlosun.com/</loc>
+    <lastmod>2024-09-12T14:56:07+00:00</lastmod>
+  </url><url>
+    <loc>https://mlosun.com/tags/gihub/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/git/</loc>
+    <loc>https://mlosun.com/tags/git/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
-    <lastmod>2024-09-12T15:00:21+00:00</lastmod>
+    <loc>https://mlosun.com/about/</loc>
+    <lastmod>2024-09-12T14:56:07+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
-    <lastmod>2024-09-12T15:00:21+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/%E6%8A%80%E5%B7%A7/</loc>
+    <loc>https://mlosun.com/categories/%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/delete-github-commit/</loc>
+    <loc>https://mlosun.com/posts/delete-github-commit/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/github/</loc>
+    <loc>https://mlosun.com/tags/github/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/hugo/</loc>
+    <loc>https://mlosun.com/tags/hugo/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/obsidian/</loc>
+    <loc>https://mlosun.com/tags/obsidian/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/obsidian-github-hugo/</loc>
+    <loc>https://mlosun.com/posts/obsidian-github-hugo/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E5%8F%91%E5%B8%83/</loc>
+    <loc>https://mlosun.com/tags/%E5%8F%91%E5%B8%83/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E6%8A%98%E8%85%BE/</loc>
+    <loc>https://mlosun.com/categories/%E6%8A%98%E8%85%BE/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2024-09-12T15:00:21+00:00</lastmod>
+    <loc>https://mlosun.com/tags/</loc>
+    <lastmod>2024-09-12T14:56:07+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
-    <lastmod>2024-09-12T15:00:21+00:00</lastmod>
+    <loc>https://mlosun.com/categories/</loc>
+    <lastmod>2024-09-12T14:56:07+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/</loc>
-    <lastmod>2024-09-12T15:00:21+00:00</lastmod>
+    <loc>https://mlosun.com/posts/</loc>
+    <lastmod>2024-09-12T14:56:07+00:00</lastmod>
   </url>
 </urlset>
