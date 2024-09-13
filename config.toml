@@ -853,7 +853,7 @@ hrefTargetBlank = true
 # 文章目录
 
 # 是否开启（全局设置）
-enableTOC = false
+enableTOC = true
 # 说明：文章的 Front Matter 中的 `toc`
 #      的优先级高于此处
 
@@ -1318,7 +1318,7 @@ displaySiteCopyright = true
 # 自定义页脚（支持 Markdown）
 customFooter = ""
 
-displayBusuanziSiteUVAndPV = false
+displayBusuanziSiteUVAndPV = true
 busuanziSiteUVText = "本站访客数"
 busuanziSiteUVIcon = "user"
 busuanziSitePVText = "本站访问量"
@@ -1356,7 +1356,7 @@ enableHighlight = true
 # 是否开启竖直滚动
 enableOverflowY = true
 # 最大高度
-maxHeight = 20
+maxHeight = -1
 # 单位：em
 
 # 是否开启复制
