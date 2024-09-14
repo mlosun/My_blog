@@ -3,7 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mlosun.com/</loc>
-    <lastmod>2024-09-12T14:56:07+00:00</lastmod>
+    <lastmod>2024-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mlosun.com/tags/hugo/</loc>
+    <lastmod>2024-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mlosun.com/posts/common-hugo-commands/</loc>
+    <lastmod>2024-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mlosun.com/categories/%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2024-09-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mlosun.com/tags/gihub/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
@@ -14,16 +23,10 @@
     <loc>https://mlosun.com/about/</loc>
     <lastmod>2024-09-12T14:56:07+00:00</lastmod>
   </url><url>
-    <loc>https://mlosun.com/categories/%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://mlosun.com/posts/delete-github-commit/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mlosun.com/tags/github/</loc>
-    <lastmod>2024-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mlosun.com/tags/hugo/</loc>
     <lastmod>2024-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mlosun.com/tags/obsidian/</loc>
