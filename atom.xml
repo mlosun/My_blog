@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">「少折腾，多记录」</title>
     <subtitle type="html">记录、分享、学习的地方。</subtitle>
-    <updated>2024-09-15T15:11:41&#43;00:00</updated>
+    <updated>2024-09-15T15:23:52&#43;00:00</updated>
     <id>https://mlosun.com/</id>
     <link rel="alternate" type="text/html" href="https://mlosun.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mlosun.com/atom.xml" />
@@ -204,23 +204,8 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;常用命令&#34;&gt;常用命令&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;查看 hugo 版本&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;创建一个新站点，存储在 &lt;code&gt;newblog&lt;/code&gt; 文件夹内&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site newblog
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;创建一篇新文章，路径为 &lt;code&gt;content/posts/newpost.md&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new posts/newpost.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;本地预览（生成静态文件并启动 web 服务） http://localhost:1313/&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server -w -D
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;hugo-help-翻译&#34;&gt;hugo help 翻译&lt;/h2&gt;
-&lt;p&gt;安装好 hugo 后，在终端输入 &lt;code&gt;hugo help&lt;/code&gt; 会输出如下内容：&lt;/p&gt;……</summary>
+&lt;li&gt;
+&lt;p&gt;查看 hugo 版本&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;blockquote&gt;
 &lt;p&gt;本文基于的 hugo 版本：&lt;/p&gt;
@@ -234,22 +219,24 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;常用命令&#34;&gt;常用命令&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;查看 hugo 版本&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;查看 hugo 版本&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;创建一个新站点，存储在 &lt;code&gt;newblog&lt;/code&gt; 文件夹内&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建一个新站点，存储在 &lt;code&gt;newblog&lt;/code&gt; 文件夹内&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site newblog
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;创建一篇新文章，路径为 &lt;code&gt;content/posts/newpost.md&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建一篇新文章，路径为 &lt;code&gt;content/posts/newpost.md&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new posts/newpost.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;本地预览（生成静态文件并启动 web 服务） http://localhost:1313/&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本地预览（生成静态文件并启动 web 服务） http://localhost:1313/&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server -w -D
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;hugo-help-翻译&#34;&gt;hugo help 翻译&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hugo-help-翻译&#34;&gt;hugo help 翻译&lt;/h2&gt;
 &lt;p&gt;安装好 hugo 后，在终端输入 &lt;code&gt;hugo help&lt;/code&gt; 会输出如下内容：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo is the main command, used to build your Hugo site.
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
