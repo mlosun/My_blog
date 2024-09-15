@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
         
-        <lastBuildDate>Sun, 15 Sep 2024 15:47:07 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 15 Sep 2024 15:49:18 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mlosun.com/rss.xml" />
         
@@ -781,10 +781,6 @@
 &lt;p&gt;在 Obsidian 中创建笔记，插入刚创建的模板。然后如往常一样使用 obsidian 完善笔记内容即可。&lt;/p&gt;
 &lt;p&gt;完成文章内容后，在 Obsidian 文件列表中，右键 Upload 上传到 Github&lt;/p&gt;
 &lt;p&gt;稍等 Github Actions 运行完毕，即可访问～&lt;/p&gt;
-&lt;h2 id=&#34;挖坑待填&#34;&gt;挖坑待填&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 图床方案&lt;/li&gt;
-&lt;/ul&gt;
 </description>
                 
                 

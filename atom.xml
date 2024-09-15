@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">「少折腾，多记录」</title>
     <subtitle type="html">记录、分享、学习的地方。</subtitle>
-    <updated>2024-09-15T15:47:07&#43;00:00</updated>
+    <updated>2024-09-15T15:49:18&#43;00:00</updated>
     <id>https://mlosun.com/</id>
     <link rel="alternate" type="text/html" href="https://mlosun.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mlosun.com/atom.xml" />
@@ -635,7 +635,7 @@
             <title type="text">Obsidian &#43; Github &#43; Hugo 一站式笔记发布工作流</title>
             <link rel="alternate" type="text/html" href="https://mlosun.com/posts/obsidian-github-hugo/" />
             <id>https://mlosun.com/posts/obsidian-github-hugo/</id>
-            <updated>2024-09-12T00:00:00&#43;00:00</updated>
+            <updated>2024-09-15T00:00:00&#43;00:00</updated>
             <published>2024-09-10T00:00:00&#43;00:00</published>
             <author>
                     <name>mlosun</name>
@@ -852,10 +852,6 @@
 &lt;p&gt;在 Obsidian 中创建笔记，插入刚创建的模板。然后如往常一样使用 obsidian 完善笔记内容即可。&lt;/p&gt;
 &lt;p&gt;完成文章内容后，在 Obsidian 文件列表中，右键 Upload 上传到 Github&lt;/p&gt;
 &lt;p&gt;稍等 Github Actions 运行完毕，即可访问～&lt;/p&gt;
-&lt;h2 id=&#34;挖坑待填&#34;&gt;挖坑待填&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 图床方案&lt;/li&gt;
-&lt;/ul&gt;
 </content>
             
             
