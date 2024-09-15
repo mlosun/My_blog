@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
         
-        <lastBuildDate>Sun, 15 Sep 2024 15:10:25 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 15 Sep 2024 15:11:41 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mlosun.com/rss.xml" />
         
@@ -91,7 +91,7 @@
 这样的话每年清理一遍冗余图片即可。&lt;/p&gt;
 &lt;p&gt;（这样的方案也比较灵活，结合时间戳重命名，如果在 2025 年年初未能及时重新设置，那么图片路径会变成 &lt;code&gt;images/2024/2025***********.jpg&lt;/code&gt;，也能够很方便的找出来）&lt;/p&gt;
 &lt;h2 id=&#34;应用设置&#34;&gt;应用设置&lt;/h2&gt;
-&lt;h4 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h4&gt;
+&lt;h3 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h3&gt;
 &lt;p&gt;使用插件 &lt;a href=&#34;https://github.com/renmu123/obsidian-image-auto-upload-plugin&#34;&gt;Image auto upload&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;安装后只需要确保 PicGo server 上传接口地址和端口与 PicGo 设置的一致即可（通常都是默认）&lt;/p&gt;
 &lt;p&gt;其余的一些个性化设置：&lt;/p&gt;
@@ -102,7 +102,7 @@
 &lt;li&gt;应用网络图片：开&lt;/li&gt;
 &lt;li&gt;上传文件后移除源文件：开&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;hugo&#34;&gt;Hugo&lt;/h4&gt;
+&lt;h3 id=&#34;hugo&#34;&gt;Hugo&lt;/h3&gt;
 &lt;p&gt;由于我大部分 Hugo 的文章都是通过 Obsidian 完成，所以并不需要做什么特殊的设置。&lt;/p&gt;
 &lt;p&gt;只有少量单独的图片需要使用到图床时，手动上传到 &lt;code&gt;blog&lt;/code&gt; 目录下即可。&lt;/p&gt;
 </description>
