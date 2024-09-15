@@ -25,27 +25,27 @@ slug: Common-Hugo-Commands
 
 - 查看 hugo 版本
 
-```shell
-hugo version
-```
+	```shell
+	hugo version
+	```
 
 - 创建一个新站点，存储在 `newblog` 文件夹内
 
-```shell
-hugo new site newblog
-```
+	```shell
+	hugo new site newblog
+	```
 
 - 创建一篇新文章，路径为 `content/posts/newpost.md`
 
-```shell
-hugo new posts/newpost.md
-```
+	```shell
+	hugo new posts/newpost.md
+	```
 
 - 本地预览（生成静态文件并启动 web 服务） http://localhost:1313/
 
-```shell
-hugo server -w -D
-```
+	```shell
+	hugo server -w -D
+	```
 
 ## hugo help 翻译
 
