@@ -1,4 +1,6 @@
 ---
+created: 2024-09-15
+updated: 2024-09-15
 share: true
 date: 2024-09-15
 lastmod: 2024-09-15
@@ -53,7 +55,7 @@ slug: PicGo-Github
 
 ## 应用设置
 
-#### Obsidian
+### Obsidian
 
 使用插件 [Image auto upload](https://github.com/renmu123/obsidian-image-auto-upload-plugin)
 
@@ -66,7 +68,7 @@ slug: PicGo-Github
 - 应用网络图片：开
 - 上传文件后移除源文件：开
 
-#### Hugo
+### Hugo
 
 由于我大部分 Hugo 的文章都是通过 Obsidian 完成，所以并不需要做什么特殊的设置。
 
