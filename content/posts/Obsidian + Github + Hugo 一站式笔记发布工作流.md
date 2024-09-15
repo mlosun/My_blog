@@ -1,7 +1,7 @@
 ---
 share: true
 date: 2024-09-10
-lastmod: 2024-09-12
+lastmod: 2024-09-15
 tags:
   - Hugo
   - Obsidian
@@ -231,7 +231,3 @@ slug: # 路径标识
 完成文章内容后，在 Obsidian 文件列表中，右键 Upload 上传到 Github
 
 稍等 Github Actions 运行完毕，即可访问～
-
-## 挖坑待填
-
-- [ ] 图床方案
