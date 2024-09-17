@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">「少折腾，多记录」</title>
     <subtitle type="html">记录、分享、学习的地方。</subtitle>
-    <updated>2024-09-17T16:27:15&#43;00:00</updated>
+    <updated>2024-09-17T16:32:10&#43;00:00</updated>
     <id>https://mlosun.com/</id>
     <link rel="alternate" type="text/html" href="https://mlosun.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mlosun.com/atom.xml" />
@@ -17,9 +17,9 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</rights>
     <generator uri="https://gohugo.io/" version="0.134.2">Hugo</generator>
         <entry>
-            <title type="text"></title>
-            <link rel="alternate" type="text/html" href="https://mlosun.com/posts/tqsdk-%E4%B8%8D%E5%90%8C%E5%90%88%E7%BA%A6%E7%B1%BB%E5%9E%8B%E7%9A%84%E6%95%B0%E6%8D%AE%E5%B7%AE%E5%BC%82/" />
-            <id>https://mlosun.com/posts/tqsdk-%E4%B8%8D%E5%90%8C%E5%90%88%E7%BA%A6%E7%B1%BB%E5%9E%8B%E7%9A%84%E6%95%B0%E6%8D%AE%E5%B7%AE%E5%BC%82/</id>
+            <title type="text">TqSdk 不同合约类型的数据差异</title>
+            <link rel="alternate" type="text/html" href="https://mlosun.com/posts/tqsdk-ins_class-diff/" />
+            <id>https://mlosun.com/posts/tqsdk-ins_class-diff/</id>
             <updated>2024-09-17T00:00:00&#43;00:00</updated>
             <published>2024-09-17T00:00:00&#43;00:00</published>
             <author>
@@ -27,7 +27,7 @@
                     <uri>https://mlosun.com</uri>
                     <email>mlosun@qq.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</rights><summary type="html">&lt;h2 id=&#34;合约类型-ins_class&#34;&gt;合约类型 ins_class&lt;/h2&gt;
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</rights><summary type="html">&lt;h2 id=&#34;合约类型&#34;&gt;合约类型&lt;/h2&gt;
 &lt;p&gt;根据 &lt;a href=&#34;https://doc.shinnytech.com/tqsdk/latest/reference/tqsdk.api.html#tqsdk.TqApi.query_symbol_info&#34;&gt;query_symbol_info&lt;/a&gt; 得知，Tqsdk 里的合约类型可能的值有：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;FUTURE&lt;/code&gt; 期货&lt;/li&gt;
@@ -39,7 +39,7 @@
 &lt;/ul&gt;
 &lt;p&gt;这里常用的就是 &lt;code&gt;FUTURE&lt;/code&gt; 和 &lt;code&gt;CONT&lt;/code&gt;。&lt;/p&gt;……</summary>
             
-                <content type="html">&lt;h2 id=&#34;合约类型-ins_class&#34;&gt;合约类型 ins_class&lt;/h2&gt;
+                <content type="html">&lt;h2 id=&#34;合约类型&#34;&gt;合约类型&lt;/h2&gt;
 &lt;p&gt;根据 &lt;a href=&#34;https://doc.shinnytech.com/tqsdk/latest/reference/tqsdk.api.html#tqsdk.TqApi.query_symbol_info&#34;&gt;query_symbol_info&lt;/a&gt; 得知，Tqsdk 里的合约类型可能的值有：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;FUTURE&lt;/code&gt; 期货&lt;/li&gt;
@@ -112,7 +112,7 @@
                             
                             
                             
-                                <category scheme="https://mlosun.com/categories/" term="分类" label="分类" />
+                                <category scheme="https://mlosun.com/categories/tqsdk/" term="Tqsdk" label="Tqsdk" />
                             
                         
                     
@@ -122,7 +122,7 @@
                             
                             
                             
-                                <category scheme="https://mlosun.com/tags/" term="标签" label="标签" />
+                                <category scheme="https://mlosun.com/tags/tqsdk/" term="Tqsdk" label="Tqsdk" />
                             
                         
                     

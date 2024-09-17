@@ -23,22 +23,22 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
         
-        <lastBuildDate>Tue, 17 Sep 2024 16:27:15 &#43;0000</lastBuildDate>
+        <lastBuildDate>Tue, 17 Sep 2024 16:32:10 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mlosun.com/rss.xml" />
         
         
             <item>
-                <title></title>
-                <link>https://mlosun.com/posts/tqsdk-%E4%B8%8D%E5%90%8C%E5%90%88%E7%BA%A6%E7%B1%BB%E5%9E%8B%E7%9A%84%E6%95%B0%E6%8D%AE%E5%B7%AE%E5%BC%82/</link>
-                <guid isPermaLink="true">https://mlosun.com/posts/tqsdk-%E4%B8%8D%E5%90%8C%E5%90%88%E7%BA%A6%E7%B1%BB%E5%9E%8B%E7%9A%84%E6%95%B0%E6%8D%AE%E5%B7%AE%E5%BC%82/</guid>
+                <title>TqSdk 不同合约类型的数据差异</title>
+                <link>https://mlosun.com/posts/tqsdk-ins_class-diff/</link>
+                <guid isPermaLink="true">https://mlosun.com/posts/tqsdk-ins_class-diff/</guid>
                 <pubDate>Tue, 17 Sep 2024 00:00:00 &#43;0000</pubDate>
                 
                     <author>mlosun@qq.com (mlosun)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
                 
-                    <description>&lt;h2 id=&#34;合约类型-ins_class&#34;&gt;合约类型 ins_class&lt;/h2&gt;
+                    <description>&lt;h2 id=&#34;合约类型&#34;&gt;合约类型&lt;/h2&gt;
 &lt;p&gt;根据 &lt;a href=&#34;https://doc.shinnytech.com/tqsdk/latest/reference/tqsdk.api.html#tqsdk.TqApi.query_symbol_info&#34;&gt;query_symbol_info&lt;/a&gt; 得知，Tqsdk 里的合约类型可能的值有：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;FUTURE&lt;/code&gt; 期货&lt;/li&gt;
@@ -111,7 +111,7 @@
                                 
                                 
                                 
-                                    <category domain="https://mlosun.com/categories/">分类</category>
+                                    <category domain="https://mlosun.com/categories/tqsdk/">Tqsdk</category>
                                 
                             
                         
@@ -121,7 +121,7 @@
                                 
                                 
                                 
-                                    <category domain="https://mlosun.com/tags/">标签</category>
+                                    <category domain="https://mlosun.com/tags/tqsdk/">Tqsdk</category>
                                 
                             
                         
