@@ -11,7 +11,7 @@ title: Python库：pipreqs 生成项目依赖文件
 slug: python-pipreqs
 ---
 
-> `pipreqs` 是一个 Python 库，它的主要功能是根据项目代码中的 `import` 语句自动生成 `requirements.txt` 文件。这个文件列出了项目所依赖的第三方库和版本，便于环境的重现和部署。
+`pipreqs` 是一个 Python 库，它的主要功能是根据项目代码中的 `import` 语句自动生成 `requirements.txt` 文件。这个文件列出了项目所依赖的第三方库和版本，便于环境的重现和部署。
 
 ## 安装
 
@@ -45,9 +45,9 @@ pipreqs . --encoding=utf-8 --force
 - `--diff <file>`: 比较指定的 `requirements.txt` 文件中的依赖与项目实际导入的依赖，查看差异。
 - `--clean <file>`: 清理指定的 `requirements.txt` 文件，移除那些在项目中未实际导入的库。
 - `--mode <scheme>`: 指定生成 `requirements.txt` 文件中依赖的版本控制方式，支持以下三种：
-	  - `compat`: 使用兼容版本，如 `Flask~=1.1.2`，表示兼容 `1.1.x` 版本。
-	  - `gt`: 使用大于等于版本号的模式，如 `Flask>=1.1.2`。
-	  - `no-pin`: 不指定版本号，如 `Flask`。
+	- `compat`: 使用兼容版本，如 `Flask~=1.1.2`，表示兼容 `1.1.x` 版本。
+	- `gt`: 使用大于等于版本号的模式，如 `Flask>=1.1.2`。
+	- `no-pin`: 不指定版本号，如 `Flask`。
 - `--scan-notebooks`: 在项目的 Jupyter Notebook 文件中查找 `import` 语句，适合那些使用 `.ipynb` 文件的项目。 
 
 ## 延伸
