@@ -10,7 +10,7 @@
         <title>「少折腾，多记录」</title>
         <link>https://mlosun.com/</link>
         <description>记录、分享、学习的地方。</description>
-        <generator>Hugo 0.134.2 https://gohugo.io/</generator>
+        <generator>Hugo 0.135.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,10 +23,96 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
         
-        <lastBuildDate>Tue, 17 Sep 2024 16:33:28 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 06 Oct 2024 15:50:47 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mlosun.com/rss.xml" />
         
+        
+            <item>
+                <title>Python库：pipreqs 生成项目依赖文件</title>
+                <link>https://mlosun.com/posts/python-pipreqs/</link>
+                <guid isPermaLink="true">https://mlosun.com/posts/python-pipreqs/</guid>
+                <pubDate>Sun, 06 Oct 2024 00:00:00 &#43;0000</pubDate>
+                
+                    <author>mlosun@qq.com (mlosun)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
+                
+                    <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;pipreqs&lt;/code&gt; 是一个 Python 库，它的主要功能是根据项目代码中的 &lt;code&gt;import&lt;/code&gt; 语句自动生成 &lt;code&gt;requirements.txt&lt;/code&gt; 文件。这个文件列出了项目所依赖的第三方库和版本，便于环境的重现和部署。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
+&lt;p&gt;你可以通过以下命令来安装 &lt;code&gt;pipreqs&lt;/code&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install pipreqs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;用法&#34;&gt;用法&lt;/h2&gt;
+&lt;p&gt;安装好后就可以在项目根目录下通过如下命令生成 &lt;code&gt;requirements.txt&lt;/code&gt; 文件。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pipreqs . --encoding&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;utf-8 --force
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;选项&#34;&gt;选项&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;path&amp;gt;&lt;/code&gt;: 指定要扫描的目录路径，如果未提供，则默认使用当前目录。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--use-local&lt;/code&gt;: 仅从本地安装的库中获取版本信息，而不通过 PyPI 远程查找。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--pypi-server &amp;lt;url&amp;gt;&lt;/code&gt;: 使用自定义的 PyPI 源地址来获取包的信息。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--proxy &amp;lt;url&amp;gt;&lt;/code&gt;: 使用代理服务器进行网络请求。代理地址可以直接在命令行指定，或者通过环境变量设置。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--debug&lt;/code&gt;: 启用调试模式，输出详细的调试信息。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--ignore &amp;lt;dirs&amp;gt;&lt;/code&gt;: 忽略特定的目录，避免在这些目录中查找依赖。多个目录可以用逗号分隔。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--no-follow-links&lt;/code&gt;: 如果项目中有符号链接文件夹，&lt;code&gt;pipreqs&lt;/code&gt; 默认会跟随这些链接。使用此参数可以禁止这一行为。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--encoding &amp;lt;charset&amp;gt;&lt;/code&gt;: 为打开文件指定编码类型（默认是 &lt;code&gt;utf-8&lt;/code&gt;）。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--savepath &amp;lt;file&amp;gt;&lt;/code&gt;: 自定义生成的 &lt;code&gt;requirements.txt&lt;/code&gt; 文件保存路径。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--print&lt;/code&gt;: 将依赖项直接输出到终端，而不生成 &lt;code&gt;requirements.txt&lt;/code&gt; 文件。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--force&lt;/code&gt;: 如果 &lt;code&gt;requirements.txt&lt;/code&gt; 文件已经存在，使用此参数强制覆盖。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--diff &amp;lt;file&amp;gt;&lt;/code&gt;: 比较指定的 &lt;code&gt;requirements.txt&lt;/code&gt; 文件中的依赖与项目实际导入的依赖，查看差异。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--clean &amp;lt;file&amp;gt;&lt;/code&gt;: 清理指定的 &lt;code&gt;requirements.txt&lt;/code&gt; 文件，移除那些在项目中未实际导入的库。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--mode &amp;lt;scheme&amp;gt;&lt;/code&gt;: 指定生成 &lt;code&gt;requirements.txt&lt;/code&gt; 文件中依赖的版本控制方式，支持以下三种：
+- &lt;code&gt;compat&lt;/code&gt;: 使用兼容版本，如 &lt;code&gt;Flask~=1.1.2&lt;/code&gt;，表示兼容 &lt;code&gt;1.1.x&lt;/code&gt; 版本。
+- &lt;code&gt;gt&lt;/code&gt;: 使用大于等于版本号的模式，如 &lt;code&gt;Flask&amp;gt;=1.1.2&lt;/code&gt;。
+- &lt;code&gt;no-pin&lt;/code&gt;: 不指定版本号，如 &lt;code&gt;Flask&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--scan-notebooks&lt;/code&gt;: 在项目的 Jupyter Notebook 文件中查找 &lt;code&gt;import&lt;/code&gt; 语句，适合那些使用 &lt;code&gt;.ipynb&lt;/code&gt; 文件的项目。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;延伸&#34;&gt;延伸&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;生成 &lt;code&gt;requirements.txt&lt;/code&gt; 文件也可以直接使用 pip 的自带命令 &lt;code&gt;pip freeze &amp;gt; requirements.txt&lt;/code&gt;，只是这样会将本地环境中的所有三方包都丢进去，通常情况下这并不是我们想要的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可以使用如下命令一次性安装 &lt;code&gt;requirements.txt&lt;/code&gt; 里的全部包&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/categories/python/">Python</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/tags/python/">python</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/tags/pipreqs/">pipreqs</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>TqSdk 不同合约类型的数据差异</title>
