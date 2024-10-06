@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">「少折腾，多记录」</title>
     <subtitle type="html">记录、分享、学习的地方。</subtitle>
-    <updated>2024-10-06T15:50:47&#43;00:00</updated>
+    <updated>2024-10-06T15:52:46&#43;00:00</updated>
     <id>https://mlosun.com/</id>
     <link rel="alternate" type="text/html" href="https://mlosun.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mlosun.com/atom.xml" />
@@ -27,12 +27,9 @@
                     <uri>https://mlosun.com</uri>
                     <email>mlosun@qq.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</rights><summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;pipreqs&lt;/code&gt; 是一个 Python 库，它的主要功能是根据项目代码中的 &lt;code&gt;import&lt;/code&gt; 语句自动生成 &lt;code&gt;requirements.txt&lt;/code&gt; 文件。这个文件列出了项目所依赖的第三方库和版本，便于环境的重现和部署。&lt;/p&gt;……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</rights><summary type="html">&lt;p&gt;&lt;code&gt;pipreqs&lt;/code&gt; 是一个 Python 库，它的主要功能是根据项目代码中的 &lt;code&gt;import&lt;/code&gt; 语句自动生成 &lt;code&gt;requirements.txt&lt;/code&gt; 文件。这个文件列出了项目所依赖的第三方库和版本，便于环境的重现和部署。&lt;/p&gt;……</summary>
             
-                <content type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;pipreqs&lt;/code&gt; 是一个 Python 库，它的主要功能是根据项目代码中的 &lt;code&gt;import&lt;/code&gt; 语句自动生成 &lt;code&gt;requirements.txt&lt;/code&gt; 文件。这个文件列出了项目所依赖的第三方库和版本，便于环境的重现和部署。&lt;/p&gt;
-&lt;/blockquote&gt;
+                <content type="html">&lt;p&gt;&lt;code&gt;pipreqs&lt;/code&gt; 是一个 Python 库，它的主要功能是根据项目代码中的 &lt;code&gt;import&lt;/code&gt; 语句自动生成 &lt;code&gt;requirements.txt&lt;/code&gt; 文件。这个文件列出了项目所依赖的第三方库和版本，便于环境的重现和部署。&lt;/p&gt;
 &lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;
 &lt;p&gt;你可以通过以下命令来安装 &lt;code&gt;pipreqs&lt;/code&gt;：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install pipreqs
@@ -55,9 +52,12 @@
 &lt;li&gt;&lt;code&gt;--diff &amp;lt;file&amp;gt;&lt;/code&gt;: 比较指定的 &lt;code&gt;requirements.txt&lt;/code&gt; 文件中的依赖与项目实际导入的依赖，查看差异。&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;--clean &amp;lt;file&amp;gt;&lt;/code&gt;: 清理指定的 &lt;code&gt;requirements.txt&lt;/code&gt; 文件，移除那些在项目中未实际导入的库。&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;--mode &amp;lt;scheme&amp;gt;&lt;/code&gt;: 指定生成 &lt;code&gt;requirements.txt&lt;/code&gt; 文件中依赖的版本控制方式，支持以下三种：
-- &lt;code&gt;compat&lt;/code&gt;: 使用兼容版本，如 &lt;code&gt;Flask~=1.1.2&lt;/code&gt;，表示兼容 &lt;code&gt;1.1.x&lt;/code&gt; 版本。
-- &lt;code&gt;gt&lt;/code&gt;: 使用大于等于版本号的模式，如 &lt;code&gt;Flask&amp;gt;=1.1.2&lt;/code&gt;。
-- &lt;code&gt;no-pin&lt;/code&gt;: 不指定版本号，如 &lt;code&gt;Flask&lt;/code&gt;。&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;compat&lt;/code&gt;: 使用兼容版本，如 &lt;code&gt;Flask~=1.1.2&lt;/code&gt;，表示兼容 &lt;code&gt;1.1.x&lt;/code&gt; 版本。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gt&lt;/code&gt;: 使用大于等于版本号的模式，如 &lt;code&gt;Flask&amp;gt;=1.1.2&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;no-pin&lt;/code&gt;: 不指定版本号，如 &lt;code&gt;Flask&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;--scan-notebooks&lt;/code&gt;: 在项目的 Jupyter Notebook 文件中查找 &lt;code&gt;import&lt;/code&gt; 语句，适合那些使用 &lt;code&gt;.ipynb&lt;/code&gt; 文件的项目。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;延伸&#34;&gt;延伸&lt;/h2&gt;
