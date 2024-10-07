@@ -1,7 +1,7 @@
 ---
 share: true
-date: 2024-10-08
-lastmod: 2024-10-08
+date: 2024-10-07
+lastmod: 2024-10-07
 tags:
   - Docker
 categories:
