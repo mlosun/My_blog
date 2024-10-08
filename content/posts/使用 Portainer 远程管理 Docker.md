@@ -1,7 +1,7 @@
 ---
 share: true
 date: 2024-10-07
-lastmod: 2024-10-07
+lastmod: 2024-10-08
 tags:
   - Docker
 categories:
@@ -9,6 +9,17 @@ categories:
 title: 使用 Portainer 远程管理 Docker
 slug: portainer-manage-docker
 ---
+
+> 2024-10-08 update
+> 昨天折腾好了远程管理 docker 后不久，发现远程主机里莫名出现了一个名为 `boorish_agelast` 运行 `ubuntu:18.04` 的容器，经过一番搜索了解到这是一种 [针对 Docker 守护进程的加密劫持蠕虫](https://unit42.paloaltonetworks.com/cetus-cryptojacking-worm/)
+> 
+> 同时云服务器也收到了恶意文件通知：
+> 
+> ![](https://img.mlosun.com/images/2024/202410080854601.png)
+> 
+> 然后了解到使用 Docker API 时可以通过 TLS 进行加密连接，不过看起来似乎有点麻烦，想着自己的 Docker 目前还没有多到非要集中管理的地步，就先找两篇文章搁置在这里吧。
+> - [如何开启 Docker Remote API 的 TLS 认证，并在 Portainer 上进行配置](https://www.xukecheng.tech/how-to-enable-tls-authentication-for-docker-remote-api)
+> - [Docker启用TLS进行安全配置 - JadePeng - 博客园](https://www.cnblogs.com/xiaoqi/p/docker-tls.html)
 
 本文内容基于 [6053537/portainer-ce - Docker Image | Docker Hub](https://hub.docker.com/r/6053537/portainer-ce) 的汉化版。
 
