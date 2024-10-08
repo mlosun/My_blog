@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">「少折腾，多记录」</title>
     <subtitle type="html">记录、分享、学习的地方。</subtitle>
-    <updated>2024-10-08T01:34:28&#43;00:00</updated>
+    <updated>2024-10-08T12:37:43&#43;00:00</updated>
     <id>https://mlosun.com/</id>
     <link rel="alternate" type="text/html" href="https://mlosun.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mlosun.com/atom.xml" />
@@ -16,6 +16,86 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</rights>
     <generator uri="https://gohugo.io/" version="0.135.0">Hugo</generator>
+        <entry>
+            <title type="text">解决京东轻量云主机 Debian 12.5.0 镜像无法安装 1Panel 的问题</title>
+            <link rel="alternate" type="text/html" href="https://mlosun.com/posts/jdcloud-1panel-error/" />
+            <id>https://mlosun.com/posts/jdcloud-1panel-error/</id>
+            <updated>2024-10-08T00:00:00&#43;00:00</updated>
+            <published>2024-10-08T00:00:00&#43;00:00</published>
+            <author>
+                    <name>mlosun</name>
+                    <uri>https://mlosun.com</uri>
+                    <email>mlosun@qq.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</rights><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文写于 2024 年 10 月 8 日，后续会将此问题报告给京东云客服，期待解决～&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;情况说明&#34;&gt;情况说明&lt;/h2&gt;
+&lt;p&gt;自己一直在使用腾讯云。前几个月频繁看到京东云的小广告，了解了一下是价格是真香，于是 50 元/年入手了这台位于宿迁的 2H2G3M 的京东轻量云。&lt;/p&gt;……</summary>
+            
+                <content type="html">&lt;blockquote&gt;
+&lt;p&gt;本文写于 2024 年 10 月 8 日，后续会将此问题报告给京东云客服，期待解决～&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;情况说明&#34;&gt;情况说明&lt;/h2&gt;
+&lt;p&gt;自己一直在使用腾讯云。前几个月频繁看到京东云的小广告，了解了一下是价格是真香，于是 50 元/年入手了这台位于宿迁的 2H2G3M 的京东轻量云。&lt;/p&gt;
+&lt;p&gt;今天打算重装下系统，安装 1Panel 面板，选择了 Debian 12.5.0 镜像。&lt;/p&gt;
+&lt;p&gt;系统重装好后，输入 1Panel 在 Debian 上的一键安装命令后按提示继续，最终出现报错：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;cdrom://[Debian GNU/Linux 12.5.0 _Bookworm_ - Official amd64 DVD Binary-1 with firmware 20240210-11:28] bookworm Release&amp;#39;&lt;/span&gt; does not have a Release file.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;http://mirrors.jdcloudcs.com/debian bookworm Release&amp;#39;&lt;/span&gt; no longer has a Release file.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;http://mirrors.jdcloudcs.com/debian-security bookworm-security Release&amp;#39;&lt;/span&gt; no longer has a Release file.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;http://mirrors.jdcloudcs.com/debian bookworm-updates Release&amp;#39;&lt;/span&gt; no longer has a Release file.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;1Panel Log&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;: docker 安装失败
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;您可以尝试使用离线包进行安装，具体安装步骤请参考以下链接：https://1panel.cn/docs/installation/package_installation/ 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;最终导致无法安装 1Panel 面板。&lt;/p&gt;
+&lt;h2 id=&#34;尝试解决&#34;&gt;尝试解决&lt;/h2&gt;
+&lt;p&gt;作为技术小白，很庆幸现在 AI 技术的发达，于是向 AI 发起求助。&lt;/p&gt;
+&lt;p&gt;AI 告诉我使用命令 &lt;code&gt;nano /etc/apt/sources.list&lt;/code&gt; 编辑软件源列表，将上面的 &lt;code&gt;cdrom&lt;/code&gt; 行注释掉，再将下面三行的的京东云的源换成阿里云（即 &lt;code&gt;jdcloudcs&lt;/code&gt; 换成 &lt;code&gt;aliyun&lt;/code&gt;），再执行 &lt;code&gt;apt-get update&lt;/code&gt; 更新，就可以解决问题。&lt;/p&gt;
+&lt;p&gt;手动尝试了下，果然可以了。&lt;/p&gt;
+&lt;h2 id=&#34;一键脚本&#34;&gt;一键脚本&lt;/h2&gt;
+&lt;p&gt;不过这个手动修改对于不擅长使用终端编辑文件的我还是有点麻烦的，干脆让 AI 来帮忙写个一键脚本，然后再重装一次系统试了下，完美解决～&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;/^deb cdrom/s/^/#/; s/jdcloudcs/aliyun/g&amp;#39;&lt;/span&gt; /etc/apt/sources.list &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;[!NOTE]+ 脚本解释：
+这个脚本的作用是对 &lt;code&gt;/etc/apt/sources.list&lt;/code&gt; 文件进行编辑和更新软件包信息。以下是脚本执行的步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;注释掉以 &lt;code&gt;deb cdrom&lt;/code&gt; 开头的行：
+使用 &lt;code&gt;sed -i &#39;/^deb cdrom/s/^/#/&#39; /etc/apt/sources.list&lt;/code&gt;，将文件中以 &lt;code&gt;deb cdrom&lt;/code&gt; 开头的行用 &lt;code&gt;#&lt;/code&gt; 注释掉。这一操作使得这些行在包管理时被忽略。&lt;/li&gt;
+&lt;li&gt;替换源地址中的 &lt;code&gt;jdcloudcs&lt;/code&gt; 为 &lt;code&gt;aliyun&lt;/code&gt;：
+使用 &lt;code&gt;sed -i &#39;s/jdcloudcs/aliyun/g&#39; /etc/apt/sources.list&lt;/code&gt;，将所有包含 &lt;code&gt;jdcloudcs&lt;/code&gt; 的地方替换为 &lt;code&gt;aliyun&lt;/code&gt;。这通常用于更改软件源地址。&lt;/li&gt;
+&lt;li&gt;更新软件包索引：
+使用 &lt;code&gt;apt-get update&lt;/code&gt; 来更新软件包索引，以便系统知道软件源中的最新软件包信息。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mlosun.com/categories/%E6%8A%98%E8%85%BE/" term="折腾" label="折腾" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mlosun.com/tags/1panel/" term="1Panel" label="1Panel" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">使用 Portainer 远程管理 Docker</title>
             <link rel="alternate" type="text/html" href="https://mlosun.com/posts/portainer-manage-docker/" />
