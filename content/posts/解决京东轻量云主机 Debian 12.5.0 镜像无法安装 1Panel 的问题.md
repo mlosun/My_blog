@@ -1,4 +1,6 @@
 ---
+created: 2024-10-08
+updated: 2024-10-08
 share: true
 date: 2024-10-08
 lastmod: 2024-10-08
@@ -47,7 +49,8 @@ AI 告诉我使用命令 `nano /etc/apt/sources.list` 编辑软件源列表，�
 sed -i '/^deb cdrom/s/^/#/; s/jdcloudcs/aliyun/g' /etc/apt/sources.list && apt-get update
 ```
 
-> [!NOTE]+ 脚本解释：
+> 脚本解释：
+> 
 > 这个脚本的作用是对 `/etc/apt/sources.list` 文件进行编辑和更新软件包信息。以下是脚本执行的步骤：
 > 
 > 1. 注释掉以 `deb cdrom` 开头的行：
