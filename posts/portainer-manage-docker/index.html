@@ -32,9 +32,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="mlosun" /><meta name="description" content="本文内容基于 6053537/portainer-ce - Docker Image | Docker Hub 的汉化版。
-远程主机设置 首先要已经安装 Docker，这个自然不必说。
-进入主机终端，输入命令：
+    <meta name="author" content="mlosun" /><meta name="description" content=" 2024-10-08 update 昨天折腾好了远程管理 docker 后不久，发现远程主机里莫名出现了一个名为 boorish_agelast 运行 ubuntu:18.04 的容器，经过一番搜索了解到这是一种 针对 Docker 守护进程的加密劫持蠕虫
 ……" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -65,11 +63,11 @@
         "dateModified": "2024-10-07T00:00:00+00:00",
         "url": "https://mlosun.com/posts/portainer-manage-docker/",
         "headline": "使用 Portainer 远程管理 Docker",
-        "description": "本文内容基于 6053537/portainer-ce - Docker Image | Docker Hub 的汉化版。\n远程主机设置 首先要已经安装 Docker，这个自然不必说。\n进入主机终端，输入命令：\n……",
+        "description": " 2024-10-08 update 昨天折腾好了远程管理 docker 后不久，发现远程主机里莫名出现了一个名为 boorish_agelast 运行 ubuntu:18.04 的容器，经过一番搜索了解到这是一种 针对 Docker 守护进程的加密劫持蠕虫\n……",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
-        "wordCount":  184 ,
-        "image": "https://mlosun.com/icons/apple-touch-icon.png",
+        "wordCount":  383 ,
+        "image": ["https://img.mlosun.com/images/2024/202410080854601.png"],
         "author": {
             "@type": "Person",
             "description": "不想折腾",
@@ -97,7 +95,8 @@
 
     
 
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+
 
 
     
@@ -105,14 +104,12 @@
 
 
 <meta property="og:title" content="使用 Portainer 远程管理 Docker" />
-<meta property="og:description" content="本文内容基于 6053537/portainer-ce - Docker Image | Docker Hub 的汉化版。
-远程主机设置 首先要已经安装 Docker，这个自然不必说。
-进入主机终端，输入命令：
+<meta property="og:description" content=" 2024-10-08 update 昨天折腾好了远程管理 docker 后不久，发现远程主机里莫名出现了一个名为 boorish_agelast 运行 ubuntu:18.04 的容器，经过一番搜索了解到这是一种 针对 Docker 守护进程的加密劫持蠕虫
 ……" />
 <meta property="og:url" content="https://mlosun.com/posts/portainer-manage-docker/" />
 <meta property="og:site_name" content="「少折腾，多记录」" />
-<meta property="og:locale" content="zh-cn" /><meta property="og:image" content="https://mlosun.com/icons/apple-touch-icon.png" />
-    <meta property="og:type" content="article" />
+<meta property="og:locale" content="zh-cn" /><meta property="og:image" content="https://img.mlosun.com/images/2024/202410080854601.png" />
+<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2024-10-07T00:00:00&#43;00:00" />
     <meta property="article:modified_time" content="2024-10-07T00:00:00&#43;00:00" />
     
@@ -265,7 +262,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;184</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;383</span>
     
     
         
@@ -289,7 +286,18 @@
     <li><a id="contents:参考" href="#参考">参考</a></li>
   </ol>
 </nav><div class="post-body e-content">
-                <p>本文内容基于 <a href="https://hub.docker.com/r/6053537/portainer-ce" target="_blank" rel="noopener">6053537/portainer-ce - Docker Image | Docker Hub</a> 的汉化版。</p>
+                <blockquote>
+<p>2024-10-08 update
+昨天折腾好了远程管理 docker 后不久，发现远程主机里莫名出现了一个名为 <code>boorish_agelast</code> 运行 <code>ubuntu:18.04</code> 的容器，经过一番搜索了解到这是一种 <a href="https://unit42.paloaltonetworks.com/cetus-cryptojacking-worm/" target="_blank" rel="noopener">针对 Docker 守护进程的加密劫持蠕虫</a></p>
+<p>同时云服务器也收到了恶意文件通知：</p>
+<p><img src="https://img.mlosun.com/images/2024/202410080854601.png" alt=""></p>
+<p>然后了解到使用 Docker API 时可以通过 TLS 进行加密连接，不过看起来似乎有点麻烦，想着自己的 Docker 目前还没有多到非要集中管理的地步，就先找两篇文章搁置在这里吧。</p>
+<ul>
+<li><a href="https://www.xukecheng.tech/how-to-enable-tls-authentication-for-docker-remote-api" target="_blank" rel="noopener">如何开启 Docker Remote API 的 TLS 认证，并在 Portainer 上进行配置</a></li>
+<li><a href="https://www.cnblogs.com/xiaoqi/p/docker-tls.html" target="_blank" rel="noopener">Docker启用TLS进行安全配置 - JadePeng - 博客园</a></li>
+</ul>
+</blockquote>
+<p>本文内容基于 <a href="https://hub.docker.com/r/6053537/portainer-ce" target="_blank" rel="noopener">6053537/portainer-ce - Docker Image | Docker Hub</a> 的汉化版。</p>
 <h2 id="远程主机设置"><a href="#远程主机设置" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:远程主机设置" class="headings">远程主机设置</a></h2>
 <ol>
 <li>

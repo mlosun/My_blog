@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
         
-        <lastBuildDate>Mon, 07 Oct 2024 17:04:42 &#43;0000</lastBuildDate>
+        <lastBuildDate>Tue, 08 Oct 2024 01:34:13 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mlosun.com/rss.xml" />
         
@@ -38,7 +38,18 @@
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
                 
-                    <description>&lt;p&gt;本文内容基于 &lt;a href=&#34;https://hub.docker.com/r/6053537/portainer-ce&#34;&gt;6053537/portainer-ce - Docker Image | Docker Hub&lt;/a&gt; 的汉化版。&lt;/p&gt;
+                    <description>&lt;blockquote&gt;
+&lt;p&gt;2024-10-08 update
+昨天折腾好了远程管理 docker 后不久，发现远程主机里莫名出现了一个名为 &lt;code&gt;boorish_agelast&lt;/code&gt; 运行 &lt;code&gt;ubuntu:18.04&lt;/code&gt; 的容器，经过一番搜索了解到这是一种 &lt;a href=&#34;https://unit42.paloaltonetworks.com/cetus-cryptojacking-worm/&#34;&gt;针对 Docker 守护进程的加密劫持蠕虫&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;同时云服务器也收到了恶意文件通知：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.mlosun.com/images/2024/202410080854601.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然后了解到使用 Docker API 时可以通过 TLS 进行加密连接，不过看起来似乎有点麻烦，想着自己的 Docker 目前还没有多到非要集中管理的地步，就先找两篇文章搁置在这里吧。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.xukecheng.tech/how-to-enable-tls-authentication-for-docker-remote-api&#34;&gt;如何开启 Docker Remote API 的 TLS 认证，并在 Portainer 上进行配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/xiaoqi/p/docker-tls.html&#34;&gt;Docker启用TLS进行安全配置 - JadePeng - 博客园&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本文内容基于 &lt;a href=&#34;https://hub.docker.com/r/6053537/portainer-ce&#34;&gt;6053537/portainer-ce - Docker Image | Docker Hub&lt;/a&gt; 的汉化版。&lt;/p&gt;
 &lt;h2 id=&#34;远程主机设置&#34;&gt;远程主机设置&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
