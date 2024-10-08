@@ -67,7 +67,7 @@
         "description": " 本文写于 2024 年 10 月 8 日，后续会将此问题报告给京东云客服，期待解决～\n情况说明 自己一直在使用腾讯云。前几个月频繁看到京东云的小广告，了解了一下是价格是真香，于是 50 元/年入手了这台位于宿迁的 2H2G3M 的京东轻量云。\n……",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
-        "wordCount":  748 ,
+        "wordCount":  747 ,
         "image": "https://mlosun.com/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
@@ -263,7 +263,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;748</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;747</span>
     
     
         
@@ -309,8 +309,8 @@
 <p>不过这个手动修改对于不擅长使用终端编辑文件的我还是有点麻烦的，干脆让 AI 来帮忙写个一键脚本，然后再重装一次系统试了下，完美解决～</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sed -i <span class="s1">&#39;/^deb cdrom/s/^/#/; s/jdcloudcs/aliyun/g&#39;</span> /etc/apt/sources.list <span class="o">&amp;&amp;</span> apt-get update
 </span></span></code></pre></div><blockquote>
-<p>[!NOTE]+ 脚本解释：
-这个脚本的作用是对 <code>/etc/apt/sources.list</code> 文件进行编辑和更新软件包信息。以下是脚本执行的步骤：</p>
+<p>脚本解释：</p>
+<p>这个脚本的作用是对 <code>/etc/apt/sources.list</code> 文件进行编辑和更新软件包信息。以下是脚本执行的步骤：</p>
 <ol>
 <li>注释掉以 <code>deb cdrom</code> 开头的行：
 使用 <code>sed -i '/^deb cdrom/s/^/#/' /etc/apt/sources.list</code>，将文件中以 <code>deb cdrom</code> 开头的行用 <code>#</code> 注释掉。这一操作使得这些行在包管理时被忽略。</li>

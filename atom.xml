@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">「少折腾，多记录」</title>
     <subtitle type="html">记录、分享、学习的地方。</subtitle>
-    <updated>2024-10-08T12:37:43&#43;00:00</updated>
+    <updated>2024-10-08T15:13:24&#43;00:00</updated>
     <id>https://mlosun.com/</id>
     <link rel="alternate" type="text/html" href="https://mlosun.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mlosun.com/atom.xml" />
@@ -55,8 +55,8 @@
 &lt;p&gt;不过这个手动修改对于不擅长使用终端编辑文件的我还是有点麻烦的，干脆让 AI 来帮忙写个一键脚本，然后再重装一次系统试了下，完美解决～&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;/^deb cdrom/s/^/#/; s/jdcloudcs/aliyun/g&amp;#39;&lt;/span&gt; /etc/apt/sources.list &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-get update
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;[!NOTE]+ 脚本解释：
-这个脚本的作用是对 &lt;code&gt;/etc/apt/sources.list&lt;/code&gt; 文件进行编辑和更新软件包信息。以下是脚本执行的步骤：&lt;/p&gt;
+&lt;p&gt;脚本解释：&lt;/p&gt;
+&lt;p&gt;这个脚本的作用是对 &lt;code&gt;/etc/apt/sources.list&lt;/code&gt; 文件进行编辑和更新软件包信息。以下是脚本执行的步骤：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;注释掉以 &lt;code&gt;deb cdrom&lt;/code&gt; 开头的行：
 使用 &lt;code&gt;sed -i &#39;/^deb cdrom/s/^/#/&#39; /etc/apt/sources.list&lt;/code&gt;，将文件中以 &lt;code&gt;deb cdrom&lt;/code&gt; 开头的行用 &lt;code&gt;#&lt;/code&gt; 注释掉。这一操作使得这些行在包管理时被忽略。&lt;/li&gt;
