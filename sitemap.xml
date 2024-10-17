@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mlosun.com/</loc>
-    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mlosun.com/tags/code/</loc>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mlosun.com/tags/vs/</loc>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mlosun.com/tags/vs-code/</loc>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mlosun.com/posts/vscode-tips/</loc>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mlosun.com/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mlosun.com/tags/1panel/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
@@ -15,9 +30,6 @@
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mlosun.com/tags/docker/</loc>
-    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mlosun.com/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mlosun.com/posts/portainer-manage-docker/</loc>

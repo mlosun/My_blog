@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">「少折腾，多记录」</title>
     <subtitle type="html">记录、分享、学习的地方。</subtitle>
-    <updated>2024-10-08T15:13:24&#43;00:00</updated>
+    <updated>2024-10-17T09:46:49&#43;00:00</updated>
     <id>https://mlosun.com/</id>
     <link rel="alternate" type="text/html" href="https://mlosun.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mlosun.com/atom.xml" />
@@ -15,7 +15,65 @@
                 <email>mlosun@qq.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</rights>
-    <generator uri="https://gohugo.io/" version="0.135.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.136.1">Hugo</generator>
+        <entry>
+            <title type="text">VS Code 技巧合集</title>
+            <link rel="alternate" type="text/html" href="https://mlosun.com/posts/vscode-tips/" />
+            <id>https://mlosun.com/posts/vscode-tips/</id>
+            <updated>2024-10-17T00:00:00&#43;00:00</updated>
+            <published>2024-10-17T00:00:00&#43;00:00</published>
+            <author>
+                    <name>mlosun</name>
+                    <uri>https://mlosun.com</uri>
+                    <email>mlosun@qq.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</rights><summary type="html">&lt;h2 id=&#34;大纲隐藏变量&#34;&gt;大纲隐藏变量&lt;/h2&gt;
+&lt;p&gt;打开设置页 &lt;code&gt;cmd+,&lt;/code&gt;，搜索 &lt;code&gt;outline.showVariables&lt;/code&gt;，取消勾选即可&lt;/p&gt;</summary>
+            
+                <content type="html">&lt;h2 id=&#34;大纲隐藏变量&#34;&gt;大纲隐藏变量&lt;/h2&gt;
+&lt;p&gt;打开设置页 &lt;code&gt;cmd+,&lt;/code&gt;，搜索 &lt;code&gt;outline.showVariables&lt;/code&gt;，取消勾选即可&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mlosun.com/categories/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mlosun.com/tags/vs-code/" term="VS Code" label="VS Code" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://mlosun.com/tags/vs/" term="VS" label="VS" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://mlosun.com/tags/code/" term="Code" label="Code" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">解决京东轻量云主机 Debian 12.5.0 镜像无法安装 1Panel 的问题</title>
             <link rel="alternate" type="text/html" href="https://mlosun.com/posts/jdcloud-1panel-error/" />

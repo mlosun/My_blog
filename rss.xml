@@ -10,7 +10,7 @@
         <title>「少折腾，多记录」</title>
         <link>https://mlosun.com/</link>
         <description>记录、分享、学习的地方。</description>
-        <generator>Hugo 0.135.0 https://gohugo.io/</generator>
+        <generator>Hugo 0.136.1 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,10 +23,64 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
         
-        <lastBuildDate>Tue, 08 Oct 2024 15:13:24 &#43;0000</lastBuildDate>
+        <lastBuildDate>Thu, 17 Oct 2024 09:46:49 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mlosun.com/rss.xml" />
         
+        
+            <item>
+                <title>VS Code 技巧合集</title>
+                <link>https://mlosun.com/posts/vscode-tips/</link>
+                <guid isPermaLink="true">https://mlosun.com/posts/vscode-tips/</guid>
+                <pubDate>Thu, 17 Oct 2024 00:00:00 &#43;0000</pubDate>
+                
+                    <author>mlosun@qq.com (mlosun)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
+                
+                    <description>&lt;h2 id=&#34;大纲隐藏变量&#34;&gt;大纲隐藏变量&lt;/h2&gt;
+&lt;p&gt;打开设置页 &lt;code&gt;cmd+,&lt;/code&gt;，搜索 &lt;code&gt;outline.showVariables&lt;/code&gt;，取消勾选即可&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/categories/%E6%8A%80%E6%9C%AF/">技术</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/tags/vs-code/">VS Code</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/tags/vs/">VS</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/tags/code/">Code</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>解决京东轻量云主机 Debian 12.5.0 镜像无法安装 1Panel 的问题</title>
