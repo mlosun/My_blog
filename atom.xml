@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">「少折腾，多记录」</title>
     <subtitle type="html">记录、分享、学习的地方。</subtitle>
-    <updated>2024-10-17T09:46:49&#43;00:00</updated>
+    <updated>2024-10-18T03:12:33&#43;00:00</updated>
     <id>https://mlosun.com/</id>
     <link rel="alternate" type="text/html" href="https://mlosun.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mlosun.com/atom.xml" />
@@ -15,7 +15,86 @@
                 <email>mlosun@qq.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</rights>
-    <generator uri="https://gohugo.io/" version="0.136.1">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.136.2">Hugo</generator>
+        <entry>
+            <title type="text">Python 不同入口文件调用同一函数实现不同效果</title>
+            <link rel="alternate" type="text/html" href="https://mlosun.com/posts/python-func-diff-entry-and-effects/" />
+            <id>https://mlosun.com/posts/python-func-diff-entry-and-effects/</id>
+            <updated>2024-10-18T00:00:00&#43;00:00</updated>
+            <published>2024-10-18T00:00:00&#43;00:00</published>
+            <author>
+                    <name>mlosun</name>
+                    <uri>https://mlosun.com</uri>
+                    <email>mlosun@qq.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</rights><summary type="html">&lt;h2 id=&#34;需求场景&#34;&gt;需求场景&lt;/h2&gt;
+&lt;p&gt;在写量化交易程序的过程中，往往需要多次回测以验证策略及程序的可靠性。由于一些特别的原因，实盘时我需要从数据库去获取相应的参数，而回测时如果也从数据库拿参数，那就会很繁琐，所以我希望能在本地调试参数。&lt;/p&gt;……</summary>
+            
+                <content type="html">&lt;h2 id=&#34;需求场景&#34;&gt;需求场景&lt;/h2&gt;
+&lt;p&gt;在写量化交易程序的过程中，往往需要多次回测以验证策略及程序的可靠性。由于一些特别的原因，实盘时我需要从数据库去获取相应的参数，而回测时如果也从数据库拿参数，那就会很繁琐，所以我希望能在本地调试参数。&lt;/p&gt;
+&lt;p&gt;所以就期望有一种方法，就期望有一种方法，能够在不改变任何代码（包括参数）的情况下分别执行不同参数的回测、实盘代码。&lt;/p&gt;
+&lt;p&gt;于是想到了使用不同的文件入口，比如 &lt;code&gt;strategy.py&lt;/code&gt; 是实盘模式的运行入口，&lt;code&gt;backtest.py&lt;/code&gt; 是回测模式的运行入口。&lt;/p&gt;
+&lt;p&gt;但是这样就产生一个问题，当我业务逻辑调整（目前在调试阶段还是比较频繁的）时，两个文件都需要同时去改，这样又是就需要花大量的时间去“找不同”。&lt;/p&gt;
+&lt;p&gt;但如果这两个入口文件，在调用同一个函数却能实现不同效果，那就完美了。&lt;/p&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+&lt;p&gt;在对比了 AI 给到的 N 种方案后（有一些方案限于我 python 水平一般，还无法理解），最终我选取了好理解、好操作的方案，在这里记录一下。&lt;/p&gt;
+&lt;p&gt;我有三个文件，分别是 &lt;code&gt;strategy.py&lt;/code&gt;、&lt;code&gt;backtest.py&lt;/code&gt; 、&lt;code&gt;config.py&lt;/code&gt;，其中 &lt;code&gt;config.py&lt;/code&gt; 是参数模块，负责输出参数，剩下两个是负责实盘和回测的入口文件&lt;/p&gt;
+&lt;p&gt;两个入口文件 &lt;code&gt;strategy.py&lt;/code&gt; 和 &lt;code&gt;backtest.py&lt;/code&gt; 的代码如下（两个文件代码完全相同）：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;os&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;config&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;获取参数&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;入口文件名&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;basename&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;vm&#34;&gt;__file__&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;参数&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;获取参数&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;入口文件名&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;参数&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;参数模块 &lt;code&gt;config.py&lt;/code&gt; 的代码如下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;获取参数&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;入口文件名&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;入口文件名&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;strategy.py&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c1&#34;&gt;# 实际代码略&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;参数&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;elif&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;入口文件名&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;backtest.py&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c1&#34;&gt;# 实际代码略&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;参数&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;参数&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这样就能实现&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;运行 &lt;code&gt;strategy.py&lt;/code&gt; 时，参数 = 1&lt;/li&gt;
+&lt;li&gt;运行 &lt;code&gt;backtest.py&lt;/code&gt; 时，参数 = 2&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mlosun.com/categories/python/" term="Python" label="Python" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://mlosun.com/tags/python/" term="python" label="python" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://mlosun.com/tags/%E5%85%A5%E5%8F%A3%E6%96%87%E4%BB%B6/" term="入口文件" label="入口文件" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">VS Code 技巧合集</title>
             <link rel="alternate" type="text/html" href="https://mlosun.com/posts/vscode-tips/" />

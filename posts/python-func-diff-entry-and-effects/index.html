@@ -15,7 +15,7 @@
     
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>删除Github仓库的历史提交记录 | 「少折腾，多记录」</title>
+    <title>Python 不同入口文件调用同一函数实现不同效果 | 「少折腾，多记录」</title>
 
     <link rel="stylesheet" href="/css/meme.min.4139d7eeb39d12274db6bbd40128a9b8325eb307b722a9c238b9af1451de713d.css"/>
 
@@ -32,7 +32,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="mlosun" /><meta name="description" content=" 最近一段时间为了将在不同设备跑的程序日志汇总在一起分析，向 Github 的仓库上传了大量的 log 文件，导致仓库过大在拉取时频繁出错，但其余普通大小的仓库拉取就没问题。所以想着用删除历史提交的方式将仓库变小。
+    <meta name="author" content="mlosun" /><meta name="description" content="需求场景 在写量化交易程序的过程中，往往需要多次回测以验证策略及程序的可靠性。由于一些特别的原因，实盘时我需要从数据库去获取相应的参数，而回测时如果也从数据库拿参数，那就会很繁琐，所以我希望能在本地调试参数。
 ……" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -52,21 +52,21 @@
     
 
     
-        <link rel="canonical" href="https://mlosun.com/posts/delete-github-commit/" />
+        <link rel="canonical" href="https://mlosun.com/posts/python-func-diff-entry-and-effects/" />
     
 
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "datePublished": "2024-09-12T00:00:00+00:00",
-        "dateModified": "2024-09-12T00:00:00+00:00",
-        "url": "https://mlosun.com/posts/delete-github-commit/",
-        "headline": "删除Github仓库的历史提交记录",
-        "description": " 最近一段时间为了将在不同设备跑的程序日志汇总在一起分析，向 Github 的仓库上传了大量的 log 文件，导致仓库过大在拉取时频繁出错，但其余普通大小的仓库拉取就没问题。所以想着用删除历史提交的方式将仓库变小。\n……",
+        "datePublished": "2024-10-18T00:00:00+00:00",
+        "dateModified": "2024-10-18T00:00:00+00:00",
+        "url": "https://mlosun.com/posts/python-func-diff-entry-and-effects/",
+        "headline": "Python 不同入口文件调用同一函数实现不同效果",
+        "description": "需求场景 在写量化交易程序的过程中，往往需要多次回测以验证策略及程序的可靠性。由于一些特别的原因，实盘时我需要从数据库去获取相应的参数，而回测时如果也从数据库拿参数，那就会很繁琐，所以我希望能在本地调试参数。\n……",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
-        "wordCount":  309 ,
+        "wordCount":  608 ,
         "image": "https://mlosun.com/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
@@ -102,15 +102,15 @@
 
 
 
-<meta property="og:title" content="删除Github仓库的历史提交记录" />
-<meta property="og:description" content=" 最近一段时间为了将在不同设备跑的程序日志汇总在一起分析，向 Github 的仓库上传了大量的 log 文件，导致仓库过大在拉取时频繁出错，但其余普通大小的仓库拉取就没问题。所以想着用删除历史提交的方式将仓库变小。
+<meta property="og:title" content="Python 不同入口文件调用同一函数实现不同效果" />
+<meta property="og:description" content="需求场景 在写量化交易程序的过程中，往往需要多次回测以验证策略及程序的可靠性。由于一些特别的原因，实盘时我需要从数据库去获取相应的参数，而回测时如果也从数据库拿参数，那就会很繁琐，所以我希望能在本地调试参数。
 ……" />
-<meta property="og:url" content="https://mlosun.com/posts/delete-github-commit/" />
+<meta property="og:url" content="https://mlosun.com/posts/python-func-diff-entry-and-effects/" />
 <meta property="og:site_name" content="「少折腾，多记录」" />
 <meta property="og:locale" content="zh-cn" /><meta property="og:image" content="https://mlosun.com/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2024-09-12T00:00:00&#43;00:00" />
-    <meta property="article:modified_time" content="2024-09-12T00:00:00&#43;00:00" />
+    <meta property="article:published_time" content="2024-10-18T00:00:00&#43;00:00" />
+    <meta property="article:modified_time" content="2024-10-18T00:00:00&#43;00:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -229,7 +229,7 @@
 
         <article class="content post h-entry" data-align="justify" data-type="posts" data-toc-num="true">
 
-            <h1 class="post-title p-name">删除Github仓库的历史提交记录</h1>
+            <h1 class="post-title p-name">Python 不同入口文件调用同一函数实现不同效果</h1>
 
             
 
@@ -243,11 +243,11 @@
 <div class="post-meta">
     
         
-        <time datetime="2024-09-12T00:00:00&#43;00:00" class="post-meta-item published dt-published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2024.9.12</time>
+        <time datetime="2024-10-18T00:00:00&#43;00:00" class="post-meta-item published dt-published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2024.10.18</time>
     
     
         
-        <time datetime="2024-09-12T00:00:00&#43;00:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2024.9.12</time>
+        <time datetime="2024-10-18T00:00:00&#43;00:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2024.10.18</time>
     
     
     
@@ -255,17 +255,17 @@
         
         
             
-                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/%E6%8A%80%E5%B7%A7/" class="category-link p-category">技巧</a></span>
+                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/python/" class="category-link p-category">Python</a></span>
             
         
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;309</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;608</span>
     
     
         
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;1&nbsp;分钟</span>
+        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;2&nbsp;分钟</span>
     
     
         
@@ -280,28 +280,40 @@
 
             <nav class="contents">
   <h2 id="contents" class="contents-title">目录</h2><ol class="toc">
-    <li><a id="contents:方法一创建一个新的主分支" href="#方法一创建一个新的主分支">方法一：创建一个新的主分支</a></li>
-    <li><a id="contents:方法二重新初始化-git" href="#方法二重新初始化-git">方法二：重新初始化 git</a></li>
+    <li><a id="contents:需求场景" href="#需求场景">需求场景</a></li>
+    <li><a id="contents:解决方案" href="#解决方案">解决方案</a></li>
   </ol>
 </nav><div class="post-body e-content">
-                <blockquote>
-<p>最近一段时间为了将在不同设备跑的程序日志汇总在一起分析，向 Github 的仓库上传了大量的 log 文件，导致仓库过大在拉取时频繁出错，但其余普通大小的仓库拉取就没问题。所以想着用删除历史提交的方式将仓库变小。</p>
-</blockquote>
-<p><strong>注意：此操作有风险，需提前做好备份再执行。</strong></p>
-<h2 id="方法一创建一个新的主分支"><a href="#方法一创建一个新的主分支" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:方法一创建一个新的主分支" class="headings">方法一：创建一个新的主分支</a></h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git checkout --orphan latest_branch <span class="c1"># 将当前最新代码切换到新分支</span>
-</span></span><span class="line"><span class="cl">git add -A <span class="c1"># 暂存当前所有文件</span>
-</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;init commit&#34;</span> <span class="c1"># 提交暂存的文件</span>
-</span></span><span class="line"><span class="cl">git branch -D main <span class="c1"># 删除原有main分支</span>
-</span></span><span class="line"><span class="cl">git branch -m main <span class="c1"># 将当前分支重命名为main</span>
-</span></span><span class="line"><span class="cl">git push -f origin main <span class="c1"># 推送到远端的main分支</span>
-</span></span></code></pre></div><h2 id="方法二重新初始化-git"><a href="#方法二重新初始化-git" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:方法二重新初始化-git" class="headings">方法二：重新初始化 git</a></h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># 首先手动删除本地的.git目录</span>
-</span></span><span class="line"><span class="cl">git init <span class="c1"># 初始化新的git仓库</span>
-</span></span><span class="line"><span class="cl">git add -A <span class="c1"># 暂存当前所有文件</span>
-</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;init commit&#34;</span> <span class="c1"># 提交暂存的文件</span>
-</span></span><span class="line"><span class="cl">git push -f https://github.com/username/repo.git  main <span class="c1"># 使用 -f 强制推送到远端main分支</span>
-</span></span></code></pre></div>
+                <h2 id="需求场景"><a href="#需求场景" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:需求场景" class="headings">需求场景</a></h2>
+<p>在写量化交易程序的过程中，往往需要多次回测以验证策略及程序的可靠性。由于一些特别的原因，实盘时我需要从数据库去获取相应的参数，而回测时如果也从数据库拿参数，那就会很繁琐，所以我希望能在本地调试参数。</p>
+<p>所以就期望有一种方法，就期望有一种方法，能够在不改变任何代码（包括参数）的情况下分别执行不同参数的回测、实盘代码。</p>
+<p>于是想到了使用不同的文件入口，比如 <code>strategy.py</code> 是实盘模式的运行入口，<code>backtest.py</code> 是回测模式的运行入口。</p>
+<p>但是这样就产生一个问题，当我业务逻辑调整（目前在调试阶段还是比较频繁的）时，两个文件都需要同时去改，这样又是就需要花大量的时间去“找不同”。</p>
+<p>但如果这两个入口文件，在调用同一个函数却能实现不同效果，那就完美了。</p>
+<h2 id="解决方案"><a href="#解决方案" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:解决方案" class="headings">解决方案</a></h2>
+<p>在对比了 AI 给到的 N 种方案后（有一些方案限于我 python 水平一般，还无法理解），最终我选取了好理解、好操作的方案，在这里记录一下。</p>
+<p>我有三个文件，分别是 <code>strategy.py</code>、<code>backtest.py</code> 、<code>config.py</code>，其中 <code>config.py</code> 是参数模块，负责输出参数，剩下两个是负责实盘和回测的入口文件</p>
+<p>两个入口文件 <code>strategy.py</code> 和 <code>backtest.py</code> 的代码如下（两个文件代码完全相同）：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">config</span> <span class="kn">import</span> <span class="n">获取参数</span>
+</span></span><span class="line"><span class="cl"><span class="n">入口文件名</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">参数</span> <span class="o">=</span> <span class="n">获取参数</span><span class="p">(</span><span class="n">入口文件名</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">参数</span><span class="p">)</span>
+</span></span></code></pre></div><p>参数模块 <code>config.py</code> 的代码如下</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">获取参数</span><span class="p">(</span><span class="n">入口文件名</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">入口文件名</span> <span class="o">==</span> <span class="s2">&#34;strategy.py&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># 实际代码略</span>
+</span></span><span class="line"><span class="cl">        <span class="n">参数</span> <span class="o">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">    <span class="k">elif</span> <span class="n">入口文件名</span> <span class="o">==</span> <span class="s2">&#34;backtest.py&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># 实际代码略</span>
+</span></span><span class="line"><span class="cl">        <span class="n">参数</span> <span class="o">=</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">参数</span>
+</span></span></code></pre></div><p>这样就能实现</p>
+<ul>
+<li>运行 <code>strategy.py</code> 时，参数 = 1</li>
+<li>运行 <code>backtest.py</code> 时，参数 = 2</li>
+</ul>
+
             </div>
 
             
@@ -314,7 +326,7 @@
                 
                 
                 
-                <li class="copyright-item link"><span class="copyright-item-text">链接</span>：<a href="/posts/delete-github-commit/" target="_blank" rel="noopener">https://mlosun.com/posts/delete-github-commit/</a></li>
+                <li class="copyright-item link"><span class="copyright-item-text">链接</span>：<a href="/posts/python-func-diff-entry-and-effects/" target="_blank" rel="noopener">https://mlosun.com/posts/python-func-diff-entry-and-effects/</a></li>
             
             <li class="copyright-item license"><span class="copyright-item-text">许可</span>：<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a></li>
             
@@ -329,9 +341,9 @@
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2024-09-12 00:00:00 UTC" style="cursor:help">
+        <span title="Updated @ 2024-10-18 00:00:00 UTC" style="cursor:help">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2024-09-12</text><text x="915" y="140" textLength="650" transform="scale(.1)">2024-09-12</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2024-10-18</text><text x="915" y="140" textLength="650" transform="scale(.1)">2024-10-18</text></g></svg>
         </span></div>
 
 
@@ -350,11 +362,7 @@
             <ul class="related-list">
                 
                     <li class="related-item">
-                        <a href="/posts/common-git-commands/" class="related-link">Git 的常用命令</a>
-                    </li>
-                
-                    <li class="related-item">
-                        <a href="/posts/common-hugo-commands/" class="related-link">Hugo 的常用命令</a>
+                        <a href="/posts/python-pipreqs/" class="related-link">Python库：pipreqs 生成项目依赖文件</a>
                     </li>
                 
             </ul>
@@ -372,7 +380,7 @@
                 
                 
                     
-                    <a href="/tags/gihub/" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>Gihub</a>
+                    <a href="/tags/python/" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>python</a>
                 
             
                 
@@ -380,7 +388,7 @@
                 
                 
                     
-                    <a href="/tags/git/" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>Git</a>
+                    <a href="/tags/%E5%85%A5%E5%8F%A3%E6%96%87%E4%BB%B6/" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>入口文件</a>
                 
             
         </div>
@@ -404,13 +412,9 @@
     
         <ul class="post-nav">
             
-                <li class="post-nav-prev">
-                    <a href="/posts/common-hugo-commands/" rel="prev">&lt; Hugo 的常用命令</a>
-                </li>
-            
             
                 <li class="post-nav-next">
-                    <a href="/posts/obsidian-github-hugo/" rel="next">Obsidian + Github + Hugo 一站式笔记发布工作流 &gt;</a>
+                    <a href="/posts/vscode-tips/" rel="next">VS Code 技巧合集 &gt;</a>
                 </li>
             
         </ul>
@@ -491,9 +495,9 @@
         }
         if (typeof DISQUS === 'undefined') {
             const disqus_config = function() {
-                this.page.url = 'https:\/\/mlosun.com\/posts\/delete-github-commit\/';
-                this.page.identifier = '\/posts\/delete-github-commit\/';
-                this.page.title = '删除Github仓库的历史提交记录';
+                this.page.url = 'https:\/\/mlosun.com\/posts\/python-func-diff-entry-and-effects\/';
+                this.page.identifier = '\/posts\/python-func-diff-entry-and-effects\/';
+                this.page.title = 'Python 不同入口文件调用同一函数实现不同效果';
             };
             (function() {
                 const d = document, s = d.createElement('script'); s.async = true;
@@ -505,9 +509,9 @@
             DISQUS.reset({
                 reload: true,
                 config: function() {
-                    this.page.url = 'https:\/\/mlosun.com\/posts\/delete-github-commit\/';
-                    this.page.identifier = '\/posts\/delete-github-commit\/';
-                    this.page.title = '删除Github仓库的历史提交记录';
+                    this.page.url = 'https:\/\/mlosun.com\/posts\/python-func-diff-entry-and-effects\/';
+                    this.page.identifier = '\/posts\/python-func-diff-entry-and-effects\/';
+                    this.page.title = 'Python 不同入口文件调用同一函数实现不同效果';
                 }
             });
         }
