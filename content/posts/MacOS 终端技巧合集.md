@@ -5,11 +5,11 @@ share: true
 date: 2024-10-27
 lastmod: 2024-10-27
 tags:
-  - 技术
-categories:
   - MacOS
   - 终端
   - 技巧
+categories:
+  - 技术
 title: Mac 终端技巧合集
 slug: macos-terminal-tips
 ---
