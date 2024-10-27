@@ -1,13 +1,11 @@
 ---
 created: 2024-10-17
-updated: 2024-10-17
+updated: 2024-10-27
 share: true
 date: 2024-10-17
 lastmod: 2024-10-17
 tags:
-  - VS Code
-  - VS
-  - Code
+  - VS_Code
 categories:
   - 技术
 title: VS Code 技巧合集
