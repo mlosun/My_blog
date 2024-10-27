@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">「少折腾，多记录」</title>
     <subtitle type="html">记录、分享、学习的地方。</subtitle>
-    <updated>2024-10-27T07:14:41&#43;00:00</updated>
+    <updated>2024-10-27T07:48:46&#43;00:00</updated>
     <id>https://mlosun.com/</id>
     <link rel="alternate" type="text/html" href="https://mlosun.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mlosun.com/atom.xml" />
@@ -105,19 +105,7 @@
                             
                             
                             
-                                <category scheme="https://mlosun.com/categories/macos/" term="MacOS" label="MacOS" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://mlosun.com/categories/%E7%BB%88%E7%AB%AF/" term="终端" label="终端" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://mlosun.com/categories/%E6%8A%80%E5%B7%A7/" term="技巧" label="技巧" />
+                                <category scheme="https://mlosun.com/categories/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
                             
                         
                     
@@ -127,7 +115,19 @@
                             
                             
                             
-                                <category scheme="https://mlosun.com/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                                <category scheme="https://mlosun.com/tags/macos/" term="MacOS" label="MacOS" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://mlosun.com/tags/%E7%BB%88%E7%AB%AF/" term="终端" label="终端" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://mlosun.com/tags/%E6%8A%80%E5%B7%A7/" term="技巧" label="技巧" />
                             
                         
                     

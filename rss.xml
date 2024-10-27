@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
         
-        <lastBuildDate>Sun, 27 Oct 2024 07:14:41 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 27 Oct 2024 07:48:46 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mlosun.com/rss.xml" />
         
@@ -101,19 +101,7 @@
                                 
                                 
                                 
-                                    <category domain="https://mlosun.com/categories/macos/">MacOS</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://mlosun.com/categories/%E7%BB%88%E7%AB%AF/">终端</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://mlosun.com/categories/%E6%8A%80%E5%B7%A7/">技巧</category>
+                                    <category domain="https://mlosun.com/categories/%E6%8A%80%E6%9C%AF/">技术</category>
                                 
                             
                         
@@ -123,7 +111,19 @@
                                 
                                 
                                 
-                                    <category domain="https://mlosun.com/tags/%E6%8A%80%E6%9C%AF/">技术</category>
+                                    <category domain="https://mlosun.com/tags/macos/">MacOS</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/tags/%E7%BB%88%E7%AB%AF/">终端</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/tags/%E6%8A%80%E5%B7%A7/">技巧</category>
                                 
                             
                         
