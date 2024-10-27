@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>分类 on 「少折腾，多记录」</title>
+    <link>https://mlosun.com/categories/</link>
+    <description>Recent content in 分类 on 「少折腾，多记录」</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>mlosun@qq.com (mlosun)</managingEditor>
+    <webMaster>mlosun@qq.com (mlosun)</webMaster>
+    <copyright>© 2024 mlosun</copyright>
+    <lastBuildDate>Sun, 27 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mlosun.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技术</title>
+      <link>https://mlosun.com/categories/%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+      <author>mlosun@qq.com (mlosun)</author>
+      <guid>https://mlosun.com/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://mlosun.com/categories/python/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <author>mlosun@qq.com (mlosun)</author>
+      <guid>https://mlosun.com/categories/python/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>折腾</title>
+      <link>https://mlosun.com/categories/%E6%8A%98%E8%85%BE/</link>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+      <author>mlosun@qq.com (mlosun)</author>
+      <guid>https://mlosun.com/categories/%E6%8A%98%E8%85%BE/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tqsdk</title>
+      <link>https://mlosun.com/categories/tqsdk/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <author>mlosun@qq.com (mlosun)</author>
+      <guid>https://mlosun.com/categories/tqsdk/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>技巧</title>
+      <link>https://mlosun.com/categories/%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <author>mlosun@qq.com (mlosun)</author>
+      <guid>https://mlosun.com/categories/%E6%8A%80%E5%B7%A7/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

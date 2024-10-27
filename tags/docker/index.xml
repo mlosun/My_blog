@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on 「少折腾，多记录」</title>
+    <link>https://mlosun.com/tags/docker/</link>
+    <description>Recent content in Docker on 「少折腾，多记录」</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>mlosun@qq.com (mlosun)</managingEditor>
+    <webMaster>mlosun@qq.com (mlosun)</webMaster>
+    <copyright>© 2024 mlosun</copyright>
+    <lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mlosun.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Portainer 远程管理 Docker</title>
+      <link>https://mlosun.com/posts/portainer-manage-docker/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <author>mlosun@qq.com (mlosun)</author>
+      <guid>https://mlosun.com/posts/portainer-manage-docker/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
