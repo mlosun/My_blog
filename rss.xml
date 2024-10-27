@@ -10,7 +10,7 @@
         <title>「少折腾，多记录」</title>
         <link>https://mlosun.com/</link>
         <description>记录、分享、学习的地方。</description>
-        <generator>Hugo 0.136.2 https://gohugo.io/</generator>
+        <generator>Hugo 0.136.5 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,10 +23,113 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
         
-        <lastBuildDate>Fri, 18 Oct 2024 03:12:33 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 27 Oct 2024 07:14:41 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mlosun.com/rss.xml" />
         
+        
+            <item>
+                <title>Mac 终端技巧合集</title>
+                <link>https://mlosun.com/posts/macos-terminal-tips/</link>
+                <guid isPermaLink="true">https://mlosun.com/posts/macos-terminal-tips/</guid>
+                <pubDate>Sun, 27 Oct 2024 00:00:00 &#43;0000</pubDate>
+                
+                    <author>mlosun@qq.com (mlosun)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)</copyright>
+                
+                    <description>&lt;h2 id=&#34;启动时切换到指定目录&#34;&gt;启动时切换到指定目录&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对于 zsh 用户&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;打开终端。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;输入以下命令来编辑你的 &lt;code&gt;.zshrc&lt;/code&gt; 文件（如果不存在，这个命令会创建一个）：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nano ~/.zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在打开的文件中，添加以下行来设置你的工作目录：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /path/to/your/directory &lt;span class=&#34;c1&#34;&gt;#替换成你想要切换到的目录路径。&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;保存并关闭文件（在 nano 编辑器中，使用 &lt;code&gt;Ctrl + X&lt;/code&gt;，然后按 &lt;code&gt;Y&lt;/code&gt;，最后按 &lt;code&gt;Enter&lt;/code&gt;）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;为了让更改生效，你需要重新加载 &lt;code&gt;.zshrc&lt;/code&gt;，可以输入以下命令：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; ~/.zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这样，每次你打开终端时，它就会自动切换到你指定的目录。如果你使用的是其他 shell，步骤类似，只需找到对应的配置文件进行修改即可。&lt;/p&gt;
+&lt;h2 id=&#34;终端显示完整路径&#34;&gt;终端显示完整路径&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对于 zsh 用户&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;打开终端。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;输入以下命令来编辑你的 &lt;code&gt;.zshrc&lt;/code&gt; 文件：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nano ~/.zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在文件中添加或修改 &lt;code&gt;PROMPT&lt;/code&gt; 变量，如下所示：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;PROMPT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;%~ %# &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这里 &lt;code&gt;%~&lt;/code&gt; 代表当前目录的完整路径，&lt;code&gt;%#&lt;/code&gt; 是提示符。如果你想要显示当前目录的最后一个部分，可以使用：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;PROMPT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;%1~ %# &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;保存并关闭文件。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;重新加载 &lt;code&gt;.zshrc&lt;/code&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; ~/.zshrc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/categories/macos/">MacOS</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/categories/%E7%BB%88%E7%AB%AF/">终端</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/categories/%E6%8A%80%E5%B7%A7/">技巧</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://mlosun.com/tags/%E6%8A%80%E6%9C%AF/">技术</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Python 不同入口文件调用同一函数实现不同效果</title>
