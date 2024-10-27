@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>VS Code on 「少折腾，多记录」</title>
-    <link>https://mlosun.com/tags/vs-code/</link>
-    <description>Recent content in VS Code on 「少折腾，多记录」</description>
+    <title>VS_Code on 「少折腾，多记录」</title>
+    <link>https://mlosun.com/tags/vs_code/</link>
+    <description>Recent content in VS_Code on 「少折腾，多记录」</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>mlosun@qq.com (mlosun)</managingEditor>
     <webMaster>mlosun@qq.com (mlosun)</webMaster>
     <copyright>© 2024 mlosun</copyright>
-    <lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mlosun.com/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mlosun.com/tags/vs_code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VS Code 技巧合集</title>
       <link>https://mlosun.com/posts/vscode-tips/</link>
