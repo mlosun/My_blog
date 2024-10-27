@@ -1,4 +1,6 @@
 ---
+created: 2024-09-10
+updated: 2024-10-27
 share: true
 date: 2024-09-10
 lastmod: 2024-09-15
@@ -30,7 +32,7 @@ slug: Obsidian-Github-Hugo
 然后就可以在这里直接初始化 hugo。当然，有代码洁癖的我决定直接手工进行初始化，接下来的操作均在 `Codespaces` 的终端中进行。
 
 1. 安装主题
-	这里我使用优雅的 MemE 主题
+	这里我使用优雅的 MemE 主题（2024/10/27 注：已不再使用 MemE 主题，但此处仍以 MemE 主题为例）
 
 	```shell
 	git submodule add --depth 1 https://github.com/reuixiy/hugo-theme-meme.git themes/meme
@@ -192,8 +194,8 @@ Hugo 的文件部署提交完毕后，还需要利用 Github Actions 进行自�
 
 ### 工作流原理
 
-利用 Obsidian 的 [Enveloppe](https://github.com/Enveloppe/obsidian-enveloppe) 插件，可以将 Obsidian 仓库中 YMAL 区域有 `share: true` 标记的笔记，上传到 Github 的指定目录下。我这里将上传到 `content/posts` 目录下
-利用 Obsidian 的 [Templater](https://github.com/SilentVoid13/Templater) 插件，根据 Enveloppe、Hugo、MemE 主题等特性，创建设定好 YAML 区域的模板，后续直接
+- 利用 Obsidian 的 [Enveloppe](https://github.com/Enveloppe/obsidian-enveloppe) 插件，可以将 Obsidian 仓库中 YMAL 区域有 `share: true` 标记的笔记，上传到 Github 的指定目录下。我这里将上传到 `content/posts` 目录下
+- 利用 Obsidian 的 [Templater](https://github.com/SilentVoid13/Templater) 插件，根据 Enveloppe、Hugo、MemE 主题等特性，创建设定好 YAML 区域的模板，后续直接
 
 ### Enveloppe 设置
 
