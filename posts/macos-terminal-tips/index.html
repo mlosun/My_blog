@@ -111,7 +111,7 @@
     "keywords": ["MacOS","终端","技巧"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "58"
+    "wordCount": "93"
   }]
   </script>
 
@@ -483,7 +483,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-27T00:00:00&#43;00:00">2024-10-27</time><span class="px-2 text-primary-500">&middot;</span><span>58 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2024-10-27T00:00:00&#43;00:00">2024-10-27</time><span class="px-2 text-primary-500">&middot;</span><span>93 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -633,6 +633,7 @@
   <ul>
     <li><a href="#启动时切换到指定目录">启动时切换到指定目录</a></li>
     <li><a href="#终端显示完整路径">终端显示完整路径</a></li>
+    <li><a href="#使用-python-运行-python3">使用 <code>python</code> 运行 <code>python3</code></a></li>
   </ul>
 </nav>
   </div>
@@ -648,6 +649,7 @@
   <ul>
     <li><a href="#启动时切换到指定目录">启动时切换到指定目录</a></li>
     <li><a href="#终端显示完整路径">终端显示完整路径</a></li>
+    <li><a href="#使用-python-运行-python3">使用 <code>python</code> 运行 <code>python3</code></a></li>
   </ul>
 </nav>
   </div>
@@ -802,6 +804,39 @@
 <li>
 <p>重新加载 <code>.zshrc</code>：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">source</span> ~/.zshrc
+</span></span></code></pre></div></li>
+</ol>
+
+
+<h2 class="relative group">使用 <code>python</code> 运行 <code>python3</code> 
+    <div id="%E4%BD%BF%E7%94%A8-python-%E8%BF%90%E8%A1%8C-python3" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E4%BD%BF%E7%94%A8-python-%E8%BF%90%E8%A1%8C-python3" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<blockquote>
+<p>当前 MacOS 版本 13.6.9，没有默认的 python（即终端内使用 python 会返回 <code>zsh: command not found: python</code>），只能使用 <code>python3</code> 来运行。</p>
+<p>很多在其他地方复制的命令是 <code>python</code> 而非 <code>python3</code>，导致经常需要手动去改，有点麻烦。</p>
+</blockquote>
+<ol>
+<li>
+<p>打开 <code>.bash_profile</code> 文件</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">nano ~/.bash_profile
+</span></span></code></pre></div></li>
+<li>
+<p>添加内容（设置别名）</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">alias</span> <span class="nv">python</span><span class="o">=</span><span class="s1">&#39;python3&#39;</span>
+</span></span></code></pre></div></li>
+<li>
+<p>保存并关闭文件。</p>
+</li>
+<li>
+<p>重新加载配置文件</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">source</span> ~/.bash_profile
 </span></span></code></pre></div></li>
 </ol>
 
