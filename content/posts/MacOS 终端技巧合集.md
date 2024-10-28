@@ -1,6 +1,6 @@
 ---
 created: 2024-10-27
-updated: 2024-10-27
+updated: 2024-10-28
 share: true
 date: 2024-10-27
 lastmod: 2024-10-27
@@ -69,3 +69,29 @@ slug: macos-terminal-tips
     ```shell
     source ~/.zshrc
     ```
+
+## 使用 `python` 运行 `python3`
+
+> 当前 MacOS 版本 13.6.9，没有默认的 python（即终端内使用 python 会返回 `zsh: command not found: python`），只能使用 `python3` 来运行。
+> 
+> 很多在其他地方复制的命令是 `python` 而非 `python3`，导致经常需要手动去改，有点麻烦。
+
+1. 打开 `.bash_profile` 文件
+
+	```shell
+	nano ~/.bash_profile
+	```
+
+2. 添加内容（设置别名）
+
+	```shell
+	alias python='python3'
+	```
+
+3. 保存并关闭文件。
+
+4. 重新加载配置文件
+
+	```shell
+	source ~/.bash_profile
+	```
