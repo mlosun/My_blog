@@ -76,10 +76,10 @@ slug: macos-terminal-tips
 > 
 > 很多在其他地方复制的命令是 `python` 而非 `python3`，导致经常需要手动去改，有点麻烦。
 
-1. 打开 `.bash_profile` 文件
+1. 打开 `~/.zshrc` 文件
 
 	```shell
-	nano ~/.bash_profile
+	nano ~/.zshrc
 	```
 
 2. 添加内容（设置别名）
@@ -93,5 +93,5 @@ slug: macos-terminal-tips
 4. 重新加载配置文件
 
 	```shell
-	source ~/.bash_profile
+	source ~/.zshrc
 	```
