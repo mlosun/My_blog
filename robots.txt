@@ -1,3 +1,1 @@
 User-agent: *
-Allow: /
-Sitemap: https://mlosun.com/sitemap.xml
