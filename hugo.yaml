@@ -1,0 +1,114 @@
+# 配置文件 https://imfing.github.io/hextra/zh-cn/docs/guide/configuration/
+# 高级配置 https://imfing.github.io/hextra/zh-cn/docs/advanced/
+
+menu:
+  main: # 导航栏
+    - name: 笔记
+      pageRef: /docs
+      weight: 1
+    - name: 博客
+      pageRef: /blog
+      weight: 2
+    # - name: 项目
+    #   pageRef: /showcase
+    #   weight: 3
+    - name: 关于
+      pageRef: /about
+      weight: 4 
+    - name: 搜索
+      weight: 5
+      params:
+        type: search
+  sidebar: # 侧边栏
+    - name: 更多
+      params:
+        type: separator
+      weight: 1
+    - name: "关于"
+      pageRef: "/about"
+      weight: 2
+
+params:
+  editURL: # 编辑此页链接
+    enable: true
+    base: "https://github.com/mlosun/My_blog/"
+  theme: # 颜色主题配置
+    default: system # light | dark | system
+    displayToggle: true
+  page:  # 页宽
+    width: wide  # full (100%), wide (90rem), normal (1280px)
+  search:  # 搜索
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content  # 索引策略 content | summary | heading | title
+      tokenize: forward  # 分词策略 full | forward | reverse | strict
+  comments:  # 评论系统
+    enable: false  # 是否启用评论
+    type: giscus  # 评论类型
+    giscus:  # giscus配置项
+      repo: <repository>
+      repoId: <repository ID>
+      category: <category>
+      categoryId: <category ID>
+  navbar:  # 导航栏
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.svg  # Logo路径
+      dark: images/logo-dark.svg  # 暗色Logo路径
+      width: 40
+      height: 20
+      link: /
+    width: wide
+  highlight:  # 代码高亮
+    copy:
+      enable: true  # 是否启用
+      display: hover  # 显示方式 hover | always
+  blog:  # 博客配置
+    list:  # 列表配置
+      displayTags: true  # 是否显示标签
+      sortBy: date  # 排序依据 date | lastmod | publishDate | title | weight
+      sortOrder: desc  # 排序顺序，降序或升序
+  footer:  # 页脚
+    enable: true  # 是否启用
+    displayCopyright: false  # 是否显示版权信息
+    width: wide  # 宽度
+  description: "记录、分享、学习的地方。"  # 网站描述
+  displayUpdatedDate: true  # 是否显示更新日期
+  dateFormat: "2006-01-02"  # 日期格式
+
+services:
+  googleAnalytics: # Google Analytics
+    ID: G-0LZW6NDLSS
+
+# 多语言
+defaultContentLanguage: zh-CN  # 默认内容语言
+languages:
+  zh-cn:
+    languageName: 简体中文
+    weight: 1
+
+# 基础配置
+theme: hextra
+baseURL: "https://mlosun.com/"  # 网站的基础URL
+title: "「少折腾，多记录」"  # 网站的标题
+
+# 其他配置
+enableInlineShortcodes: true  # 是否启用内联shortcodes
+enableRobotsTXT: true  # 是否启用robots.txt文件
+enableGitInfo: true  # 是否启用Git信息
+enableEmoji: false  # 是否启用Emoji表情
+hasCJKLanguage: true  # 是否包含中文、日文或韩文
+
+outputs:  # 输出配置
+  home: [HTML]  # 首页输出格式
+  page: [HTML]  # 页面输出格式
+  section: [HTML, RSS]  # 部分输出格式，包括HTML和RSS
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
