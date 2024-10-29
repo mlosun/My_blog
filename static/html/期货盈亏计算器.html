@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>期货盈亏计算器</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 400px;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
+        }
+        .info {
+            border: 1px dashed #ccc;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 0.8em;
+            text-align: center;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>期货盈亏计算器</h1>
+
+    <label for="direction">开仓方向：</label>
+    <select id="direction">
+        <option value="long">开多</option>
+        <option value="short">开空</option>
+    </select>
+
+    <label for="openPrice">开仓均价：</label>
+    <input type="number" id="openPrice" step="0.01">
+
+    <label for="closePrice">平仓均价：</label>
+    <input type="number" id="closePrice" step="0.01">
+
+    <label for="marginRate">保证金率（%）：</label>
+    <input type="number" id="marginRate" step="0.01">
+
+    <button onclick="calculateProfit()">计算浮盈</button>
+
+    <div class="result" id="result"></div>
+
+    <div class="info">
+        开多浮盈 =（平仓均价 - 开仓均价）/（开仓均价 * 保证金率）<br>
+        开空浮盈 = （开仓均价 - 平仓均价）/（开仓均价 * 保证金率）<br>
+
+        <a href="https://mlosun.com" target="_blank">回到主页</a>
+    </div>
+
+    <script>
+        function calculateProfit() {
+            const direction = document.getElementById('direction').value;
+            const openPrice = parseFloat(document.getElementById('openPrice').value);
+            const closePrice = parseFloat(document.getElementById('closePrice').value);
+            const marginRate = parseFloat(document.getElementById('marginRate').value) / 100;
+
+            if (isNaN(openPrice) || isNaN(closePrice) || isNaN(marginRate) || marginRate <= 0) {
+                document.getElementById('result').textContent = '请输入有效的数值';
+                document.getElementById('result').style.color = '#333';
+                return;
+            }
+
+            let profit;
+            if (direction === 'long') {
+                profit = (closePrice - openPrice) / (openPrice * marginRate) * 100;
+            } else {
+                profit = (openPrice - closePrice) / (openPrice * marginRate) * 100;
+            }
+
+            const profitText = `浮盈: ${profit.toFixed(2)}%`;
+            document.getElementById('result').textContent = profitText;
+            document.getElementById('result').style.color = profit >= 0 ? 'red' : 'green';
+        }
+    </script>
+
+</body></html>
