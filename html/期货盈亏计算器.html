@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="zh-CN"><head>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>期货盈亏计算器</title>
@@ -8,46 +10,51 @@
             margin: 0 auto;
             padding: 20px;
             max-width: 400px;
-            background-color: #f4f4f9;
+            background-color: #2c2c34; /* 背景色改为暗色 */
+            color: #f4f4f9; /* 文字颜色改为浅色 */
         }
         h1 {
             text-align: center;
-            color: #333;
+            color: #ffffff; /* 标题颜色改为白色 */
         }
         label {
             display: block;
             margin-top: 10px;
             margin-bottom: 5px;
+            color: #ffffff; /* 标签颜色改为白色 */
         }
         input, select, button {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
-            border: 1px solid #ccc;
+            border: 1px solid #555; /* 边框颜色改为深色 */
             border-radius: 5px;
+            background-color: #444; /* 输入框和按钮背景色改为暗色 */
+            color: #f4f4f9; /* 输入框和按钮文字颜色改为浅色 */
         }
         button {
-            background-color: #4CAF50;
+            background-color: #4CAF50; /* 按钮背景色保持不变 */
             color: white;
-            border: none;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #45a049; /* 悬停状态保持不变 */
         }
         .result {
             font-size: 1.5em;
             font-weight: bold;
             text-align: center;
+            color: #ffffff; /* 结果文字颜色改为白色 */
         }
         .info {
-            border: 1px dashed #ccc;
+            border: 1px dashed #555; /* 边框颜色改为深色 */
             padding: 10px;
             margin-top: 20px;
             font-size: 0.8em;
             text-align: center;
+            color: #f4f4f9; /* 信息文本颜色改为浅色 */
         }
         a {
-            color: #4CAF50;
+            color: #4CAF50; /* 链接颜色保持不变 */
             text-decoration: none;
         }
         a:hover {
@@ -94,7 +101,7 @@
 
             if (isNaN(openPrice) || isNaN(closePrice) || isNaN(marginRate) || marginRate <= 0) {
                 document.getElementById('result').textContent = '请输入有效的数值';
-                document.getElementById('result').style.color = '#333';
+                document.getElementById('result').style.color = '#ffffff'; // 错误信息颜色改为白色
                 return;
             }
 
@@ -111,4 +118,5 @@
         }
     </script>
 
-</body></html>
+</body>
+</html>
