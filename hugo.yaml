@@ -92,7 +92,7 @@ languages:
 # 基础配置
 theme: hextra
 baseURL: "https://mlosun.com/"  # 网站的基础URL
-title: "「少折腾，多记录」"  # 网站的标题
+title: "开源笔记 Mlosun.com"  # 网站的标题
 
 # 其他配置
 enableInlineShortcodes: true  # 是否启用内联shortcodes

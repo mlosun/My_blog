@@ -12,16 +12,16 @@ layout: hextra-home
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  创建现代化网站<br class="sm:hx-block hx-hidden" />
-  由 Markdown 和 Hugo 驱动
+  开源笔记<br class="sm:hx-block hx-hidden" />
+  面向自己的「数字花园」
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
-  极速且全能的 Hugo 主题框架
+  折腾少一点，思考多一点。
   <br class="sm:hx-block hx-hidden" />
-  为构建现代化的静态网站而生
+  人生不白走，每步都算数。
 {{< /hextra/hero-subtitle >}}
 </div>
 
