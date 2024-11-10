@@ -12,7 +12,7 @@ layout: hextra-home
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  开源笔记<br class="sm:hx-block hx-hidden" />
+  简单、务实<br class="sm:hx-block hx-hidden" />
   面向自己的「数字花园」
 {{< /hextra/hero-headline >}}
 </div>
