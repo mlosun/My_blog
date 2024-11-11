@@ -1,4 +1,5 @@
 ---
+share: true
 title: 工具手册
 ---
 
