@@ -1,6 +1,7 @@
 ---
+share: true
 title: 项目
-description: "由 Hextra 驱动的开源网站和项目。"
+description: 由 Hextra 驱动的开源网站和项目。
 toc: false
 layout: wide
 ---

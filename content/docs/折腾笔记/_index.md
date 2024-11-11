@@ -1,4 +1,5 @@
 ---
+share: true
 title: 折腾笔记
 ---
 

@@ -1,4 +1,5 @@
 ---
+share: true
 title: 期货交易
 ---
 

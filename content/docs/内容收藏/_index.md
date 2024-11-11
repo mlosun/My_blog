@@ -1,4 +1,5 @@
 ---
+share: true
 title: 内容收藏
 ---
 
