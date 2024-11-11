@@ -1,5 +1,6 @@
 ---
-title: "博客"
+share: true
+title: 博客
 ---
 
 <div style="text-align: center; margin-top: 1em;">
