@@ -1,5 +1,6 @@
 ---
-linkTitle: "笔记"
+share: true
+linkTitle: 笔记
 title: 介绍
 date: 2024-10-29
 ---
