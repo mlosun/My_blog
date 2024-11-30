@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开源笔记 Mlosun.com – 项目</title>
-    <link>https://mlosun.com/@%E5%BC%80%E6%BA%90%E7%AC%94%E8%AE%B0/content/showcase/</link>
+    <link>https://mlosun.com/showcase/</link>
     <description>Recent content in 项目 on 开源笔记 Mlosun.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     
-	  <atom:link href="https://mlosun.com/@%E5%BC%80%E6%BA%90%E7%AC%94%E8%AE%B0/content/showcase/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://mlosun.com/showcase/index.xml" rel="self" type="application/rss+xml" />
     
     
       
