@@ -1,6 +1,6 @@
 ---
 share: true
-title: 编程学习
+title: 技术
 ---
   
 ## 计划内容  
