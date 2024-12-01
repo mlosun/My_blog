@@ -11,7 +11,7 @@ categories:
 title: VS Code 技巧合集
 slug: vscode-tips
 ---
-  
-## 大纲隐藏变量  
-  
+
+## 大纲隐藏变量
+
 打开设置页 `cmd+,`，搜索 `outline.showVariables`，取消勾选即可
