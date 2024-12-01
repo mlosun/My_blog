@@ -70,10 +70,10 @@
     &lt;a href=&#34;#%e5%ae%9a%e6%9c%9f%e7%bb%b4%e6%8a%a4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;这个图床我主要在 Hugo 和 Obsidian 中使用，这里有两个考虑点：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;自己在 Obsidian 笔记的过程中会产生一些冗余图片，很久后笔记失效同时对应的图片也会失效&lt;/li&gt;
-&lt;li&gt;目前使用 Github 作为图床存储，但未来或许会迁移到腾讯云 COS 中，冗余图片会带来不必要的成本&lt;br&gt;
+&lt;li&gt;目前使用 Github 作为图床存储，但未来或许会迁移到腾讯云 COS 中，冗余图片会带来不必要的成本
 所以我需要有一个定期维护的方案。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;这个定期维护的周期，按月太频繁，所以考虑按年维护即可。如前面描述，存储路径被我设置为 &lt;code&gt;images/2024/&lt;/code&gt;，到明年的话就会改成 &lt;code&gt;images/2025/&lt;/code&gt;&lt;br&gt;
+&lt;p&gt;这个定期维护的周期，按月太频繁，所以考虑按年维护即可。如前面描述，存储路径被我设置为 &lt;code&gt;images/2024/&lt;/code&gt;，到明年的话就会改成 &lt;code&gt;images/2025/&lt;/code&gt;
 这样的话每年清理一遍冗余图片即可。&lt;/p&gt;
 &lt;p&gt;（这样的方案也比较灵活，结合时间戳重命名，如果在 2025 年年初未能及时重新设置，那么图片路径会变成 &lt;code&gt;images/2024/2025***********.jpg&lt;/code&gt;，也能够很方便的找出来）&lt;/p&gt;
 &lt;h2&gt;应用设置&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;应用设置&#34;&gt;&lt;/span&gt;
