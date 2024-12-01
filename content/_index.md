@@ -37,7 +37,7 @@ layout: hextra-home
     title="快速且功能全面"  
     subtitle="简单易用，功能强大丰富。"  
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"  
-    image="/images/hextra-doc.webp"  
+    image="https://imfing.github.io/hextra/images/hextra-doc.webp"  
     imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"  
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"  
   >}}  
@@ -45,7 +45,7 @@ layout: hextra-home
     title="Markdown 写作"  
     subtitle="只需使用 Markdown 进行编辑。多样的 Shortcode 组件开箱即用。"  
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"  
-    image="/images/hextra-markdown.webp"  
+    image="https://imfing.github.io/hextra/images/hextra-markdown.webp"  
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"  
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"  
   >}}  
@@ -53,7 +53,7 @@ layout: hextra-home
     title="全文搜索"  
     subtitle="内置 FlexSearch 全文搜索，无需额外设置。"  
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"  
-    image="/images/hextra-search.webp"  
+    image="https://imfing.github.io/hextra/images/hextra-search.webp"  
     imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"  
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"  
   >}}  
