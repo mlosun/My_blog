@@ -1,10 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>开源笔记 Mlosun.com – _index</title>
+    <title>开源笔记 Mlosun.com – 收藏</title>
     <link>https://mlosun.com/docs/%E6%94%B6%E8%97%8F/</link>
-    <description>Recent content in _index on 开源笔记 Mlosun.com</description>
+    <description>Recent content in 收藏 on 开源笔记 Mlosun.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://mlosun.com/docs/%E6%94%B6%E8%97%8F/index.xml" rel="self" type="application/rss+xml" />
     
