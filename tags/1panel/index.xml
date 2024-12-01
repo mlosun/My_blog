@@ -34,12 +34,12 @@
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
   
 
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;cdrom://[Debian GNU/Linux 12.5.0 _Bookworm_ - Official amd64 DVD Binary-1 with firmware 20240210-11:28] bookworm Release&amp;#39;&lt;/span&gt; does not have a Release file.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;http://mirrors.jdcloudcs.com/debian bookworm Release&amp;#39;&lt;/span&gt; no longer has a Release file.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;http://mirrors.jdcloudcs.com/debian-security bookworm-security Release&amp;#39;&lt;/span&gt; no longer has a Release file.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;http://mirrors.jdcloudcs.com/debian bookworm-updates Release&amp;#39;&lt;/span&gt; no longer has a Release file.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;1Panel Log&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;: docker 安装失败
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;您可以尝试使用离线包进行安装，具体安装步骤请参考以下链接：https://1panel.cn/docs/installation/package_installation/ &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;cdrom://[Debian GNU/Linux 12.5.0 _Bookworm_ - Official amd64 DVD Binary-1 with firmware 20240210-11:28] bookworm Release&amp;#39;&lt;/span&gt; does not have a Release file.  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;http://mirrors.jdcloudcs.com/debian bookworm Release&amp;#39;&lt;/span&gt; no longer has a Release file.  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;http://mirrors.jdcloudcs.com/debian-security bookworm-security Release&amp;#39;&lt;/span&gt; no longer has a Release file.  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;E: The repository &lt;span class=&#34;s1&#34;&gt;&amp;#39;http://mirrors.jdcloudcs.com/debian bookworm-updates Release&amp;#39;&lt;/span&gt; no longer has a Release file.  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;1Panel Log&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;: docker 安装失败  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;您可以尝试使用离线包进行安装，具体安装步骤请参考以下链接：https://1panel.cn/docs/installation/package_installation/   &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
     title=&#34;Copy code&#34;
@@ -61,7 +61,7 @@
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
   
 
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;/^deb cdrom/s/^/#/; s/jdcloudcs/aliyun/g&amp;#39;&lt;/span&gt; /etc/apt/sources.list &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-get update&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed -i &lt;span class=&#34;s1&#34;&gt;&amp;#39;/^deb cdrom/s/^/#/; s/jdcloudcs/aliyun/g&amp;#39;&lt;/span&gt; /etc/apt/sources.list &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-get update  &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
     title=&#34;Copy code&#34;
@@ -77,11 +77,11 @@
 &lt;p&gt;脚本解释：&lt;/p&gt;
 &lt;p&gt;这个脚本的作用是对 &lt;code&gt;/etc/apt/sources.list&lt;/code&gt; 文件进行编辑和更新软件包信息。以下是脚本执行的步骤：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;注释掉以 &lt;code&gt;deb cdrom&lt;/code&gt; 开头的行：
+&lt;li&gt;注释掉以 &lt;code&gt;deb cdrom&lt;/code&gt; 开头的行：&lt;br&gt;
 使用 &lt;code&gt;sed -i &#39;/^deb cdrom/s/^/#/&#39; /etc/apt/sources.list&lt;/code&gt;，将文件中以 &lt;code&gt;deb cdrom&lt;/code&gt; 开头的行用 &lt;code&gt;#&lt;/code&gt; 注释掉。这一操作使得这些行在包管理时被忽略。&lt;/li&gt;
-&lt;li&gt;替换源地址中的 &lt;code&gt;jdcloudcs&lt;/code&gt; 为 &lt;code&gt;aliyun&lt;/code&gt;：
+&lt;li&gt;替换源地址中的 &lt;code&gt;jdcloudcs&lt;/code&gt; 为 &lt;code&gt;aliyun&lt;/code&gt;：&lt;br&gt;
 使用 &lt;code&gt;sed -i &#39;s/jdcloudcs/aliyun/g&#39; /etc/apt/sources.list&lt;/code&gt;，将所有包含 &lt;code&gt;jdcloudcs&lt;/code&gt; 的地方替换为 &lt;code&gt;aliyun&lt;/code&gt;。这通常用于更改软件源地址。&lt;/li&gt;
-&lt;li&gt;更新软件包索引：
+&lt;li&gt;更新软件包索引：&lt;br&gt;
 使用 &lt;code&gt;apt-get update&lt;/code&gt; 来更新软件包索引，以便系统知道软件源中的最新软件包信息。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
