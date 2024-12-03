@@ -31,7 +31,7 @@ menu:
 params:
   editURL: # 编辑此页链接
     enable: true
-    base: "https://github.com/mlosun/My_blog/tree/main/"
+    base: "https://github.com/mlosun/My_blog/blob/main/content/"
   theme: # 颜色主题配置
     default: system # light | dark | system
     displayToggle: true
