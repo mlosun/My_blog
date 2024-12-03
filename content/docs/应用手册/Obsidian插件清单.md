@@ -2,7 +2,7 @@
 created: 2024-12-01
 updated: 2024-12-03
 share: true
-title: Obsidian
+title: Obsidian插件清单
 ---
 
 > 目前下面的清单都是当前正在使用的，包括一些有计划移除和还没有用起来的插件。
