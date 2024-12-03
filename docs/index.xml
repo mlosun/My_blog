@@ -15,44 +15,20 @@
     
     
     <item>
-      <title>1Panel</title>
-      <link>https://mlosun.com/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/1panel/</link>
+      <title>Chrome扩展清单</title>
+      <link>https://mlosun.com/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/1panel/</guid>
+      <guid>https://mlosun.com/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95/</guid>
       <description>
         
         
-        &lt;h2&gt;TODO&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;todo&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#todo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://mlosun.com/docs/%E6%8A%80%E6%9C%AF/docker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mlosun.com/docs/%E6%8A%80%E6%9C%AF/docker/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;TODO&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;todo&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#todo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://mlosun.com/docs/%E6%8A%80%E6%9C%AF/linux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mlosun.com/docs/%E6%8A%80%E6%9C%AF/linux/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;TODO&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;todo&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#todo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+        &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/dhdgffkkebhmkfjojejmpbldmpobfkfo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;篡改猴&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chromewebstore.google.com/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AF%91-%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6-pdf%E7%BF%BB%E8%AF%91-%E5%85%8D%E8%B4%B9/bpoadfkcbjbfhfodiogcnhhhpibjhbnh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;沉浸式翻译&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chromewebstore.google.com/detail/fehelper%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8B/pkgccpejnmalmdinmhkkfafefagiiiad&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FeHelper前端助手&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
@@ -110,7 +86,7 @@
     </item>
     
     <item>
-      <title>Obsidian</title>
+      <title>Obsidian插件清单</title>
       <link>https://mlosun.com/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -149,20 +125,6 @@
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;VSCode Editor&lt;/strong&gt; 在 Obsidian 里编辑代码&lt;/li&gt;
 &lt;/ul&gt;
 
-      </description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://mlosun.com/docs/%E6%8A%80%E6%9C%AF/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mlosun.com/docs/%E6%8A%80%E6%9C%AF/python/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;TODO&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;todo&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#todo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
       </description>
     </item>
     
