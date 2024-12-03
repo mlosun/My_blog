@@ -115,12 +115,18 @@
   </url><url>
     <loc>https://mlosun.com/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95/</loc>
   </url><url>
+    <loc>https://mlosun.com/docs/%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/docker/</loc>
+  </url><url>
     <loc>https://mlosun.com/</loc>
     <lastmod>2024-12-01T19:12:52+08:00</lastmod>
+  </url><url>
+    <loc>https://mlosun.com/docs/%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/linux/</loc>
   </url><url>
     <loc>https://mlosun.com/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/macos%E5%BA%94%E7%94%A8%E6%B8%85%E5%8D%95/</loc>
   </url><url>
     <loc>https://mlosun.com/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</loc>
+  </url><url>
+    <loc>https://mlosun.com/docs/%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/python/</loc>
   </url><url>
     <loc>https://mlosun.com/blog/</loc>
     <lastmod>2024-12-02T00:02:22+08:00</lastmod>
@@ -133,6 +139,8 @@
   </url><url>
     <loc>https://mlosun.com/showcase/</loc>
     <lastmod>2024-12-02T00:02:22+08:00</lastmod>
+  </url><url>
+    <loc>https://mlosun.com/docs/%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/</loc>
   </url><url>
     <loc>https://mlosun.com/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/</loc>
   </url>
