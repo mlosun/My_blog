@@ -1,11 +1,9 @@
 ---
 created: 2024-10-30
-updated: 2024-12-02
+updated: 2024-12-03
 share: true
-title: MacOS
+title: MacOS应用清单
 ---
-
-## 推荐应用
 
 #### 考察中...
 
