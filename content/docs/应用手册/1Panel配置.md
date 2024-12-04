@@ -13,11 +13,6 @@ title: Chrome扩展清单
 curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && bash quick_start.sh
 ```
 
-- 安装目录：默认
-- 镜像加速：y
-- 面板端口：*
-- 安全入口：*
-
 ## 设置
 
 - 导入 1Panel 专业版许可证
@@ -25,5 +20,7 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 
 ## 应用
 
-- **OpenResty**基于 NGINX 和 LuaJIT 的 Web 平台
-- Memos
+- [OpenResty](https://apps.fit2cloud.com/1panel/openresty) 基于 NGINX 和 LuaJIT 的 Web 平台
+- [Memos](https://apps.fit2cloud.com/1panel/memos) 轻量级、自托管的备忘录中心
+- [FreshRSS](https://apps.fit2cloud.com/1panel/freshrss) 自托管的 RSS 和 Atom 源聚合器
+- [Homepage](https://apps.fit2cloud.com/1panel/homepage) 高度可定制的应用程序仪表板
