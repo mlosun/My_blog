@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开源笔记 Mlosun.com – 博客</title>
-    <link>https://mlosun.com/blog/</link>
+    <link>https://mlosun.github.io/My_blog/blog/</link>
     <description>Recent content in 博客 on 开源笔记 Mlosun.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     
-	  <atom:link href="https://mlosun.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://mlosun.github.io/My_blog/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Mac 终端技巧合集</title>
-      <link>https://mlosun.com/blog/macos-terminal-tips/</link>
+      <link>https://mlosun.github.io/My_blog/blog/macos-terminal-tips/</link>
       <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/macos-terminal-tips/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/macos-terminal-tips/</guid>
       <description>
         
         
@@ -242,10 +242,10 @@
     
     <item>
       <title>Python 不同入口文件调用同一函数实现不同效果</title>
-      <link>https://mlosun.com/blog/python-func-diff-entry-and-effects/</link>
+      <link>https://mlosun.github.io/My_blog/blog/python-func-diff-entry-and-effects/</link>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/python-func-diff-entry-and-effects/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/python-func-diff-entry-and-effects/</guid>
       <description>
         
         
@@ -312,10 +312,10 @@
     
     <item>
       <title>VS Code 技巧合集</title>
-      <link>https://mlosun.com/blog/vscode-tips/</link>
+      <link>https://mlosun.github.io/My_blog/blog/vscode-tips/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/vscode-tips/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/vscode-tips/</guid>
       <description>
         
         
@@ -327,10 +327,10 @@
     
     <item>
       <title>解决京东轻量云主机 Debian 12.5.0 镜像无法安装 1Panel 的问题</title>
-      <link>https://mlosun.com/blog/jdcloud-1panel-error/</link>
+      <link>https://mlosun.github.io/My_blog/blog/jdcloud-1panel-error/</link>
       <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/jdcloud-1panel-error/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/jdcloud-1panel-error/</guid>
       <description>
         
         
@@ -401,10 +401,10 @@
     
     <item>
       <title>使用 Portainer 远程管理 Docker</title>
-      <link>https://mlosun.com/blog/portainer-manage-docker/</link>
+      <link>https://mlosun.github.io/My_blog/blog/portainer-manage-docker/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/portainer-manage-docker/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/portainer-manage-docker/</guid>
       <description>
         
         
@@ -503,10 +503,10 @@
     
     <item>
       <title>Python库：pipreqs 生成项目依赖文件</title>
-      <link>https://mlosun.com/blog/python-pipreqs/</link>
+      <link>https://mlosun.github.io/My_blog/blog/python-pipreqs/</link>
       <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/python-pipreqs/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/python-pipreqs/</guid>
       <description>
         
         
@@ -599,10 +599,10 @@
     
     <item>
       <title>TqSdk 不同合约类型的数据差异</title>
-      <link>https://mlosun.com/blog/tqsdk-ins_class-diff/</link>
+      <link>https://mlosun.github.io/My_blog/blog/tqsdk-ins_class-diff/</link>
       <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/tqsdk-ins_class-diff/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/tqsdk-ins_class-diff/</guid>
       <description>
         
         
@@ -687,10 +687,10 @@
     
     <item>
       <title>Git 的常用命令</title>
-      <link>https://mlosun.com/blog/common-git-commands/</link>
+      <link>https://mlosun.github.io/My_blog/blog/common-git-commands/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/common-git-commands/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/common-git-commands/</guid>
       <description>
         
         
@@ -924,10 +924,10 @@
     
     <item>
       <title>使用 PicGo 和 Github 搭建图床</title>
-      <link>https://mlosun.com/blog/picgo-github/</link>
+      <link>https://mlosun.github.io/My_blog/blog/picgo-github/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/picgo-github/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/picgo-github/</guid>
       <description>
         
         
@@ -1004,10 +1004,10 @@
     
     <item>
       <title>Hugo 的常用命令</title>
-      <link>https://mlosun.com/blog/common-hugo-commands/</link>
+      <link>https://mlosun.github.io/My_blog/blog/common-hugo-commands/</link>
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/common-hugo-commands/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/common-hugo-commands/</guid>
       <description>
         
         
@@ -1291,10 +1291,10 @@
     
     <item>
       <title>删除Github仓库的历史提交记录</title>
-      <link>https://mlosun.com/blog/delete-github-commit/</link>
+      <link>https://mlosun.github.io/My_blog/blog/delete-github-commit/</link>
       <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/delete-github-commit/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/delete-github-commit/</guid>
       <description>
         
         
@@ -1349,10 +1349,10 @@
     
     <item>
       <title>Obsidian &#43; Github &#43; Hugo 一站式笔记发布工作流</title>
-      <link>https://mlosun.com/blog/obsidian-github-hugo/</link>
+      <link>https://mlosun.github.io/My_blog/blog/obsidian-github-hugo/</link>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/obsidian-github-hugo/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/obsidian-github-hugo/</guid>
       <description>
         
         
