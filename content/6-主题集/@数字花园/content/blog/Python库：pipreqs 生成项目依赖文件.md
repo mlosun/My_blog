@@ -1,5 +1,8 @@
 ---
+created: 2024-10-27
+updated: 2024-12-08
 share: true
+title: Python库：pipreqs 生成项目依赖文件
 date: 2024-10-06
 lastmod: 2024-10-06
 tags:
@@ -7,7 +10,6 @@ tags:
   - pipreqs
 categories:
   - Python
-title: Python库：pipreqs 生成项目依赖文件
 slug: python-pipreqs
 ---
 

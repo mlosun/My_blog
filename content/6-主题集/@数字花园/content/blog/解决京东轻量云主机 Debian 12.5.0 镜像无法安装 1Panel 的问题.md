@@ -1,14 +1,14 @@
 ---
 created: 2024-10-08
-updated: 2024-10-08
+updated: 2024-12-08
 share: true
+title: 解决京东轻量云主机 Debian 12.5.0 镜像无法安装 1Panel 的问题
 date: 2024-10-08
 lastmod: 2024-10-08
 tags:
   - 1Panel
 categories:
   - 折腾
-title: 解决京东轻量云主机 Debian 12.5.0 镜像无法安装 1Panel 的问题
 slug: jdcloud-1panel-error
 ---
 

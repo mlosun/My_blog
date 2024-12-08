@@ -1,8 +1,8 @@
 ---
 created: 2024-12-04
-updated: 2024-12-04
+updated: 2024-12-08
 share: true
-title: Chrome扩展清单
+title: 1Panel配置
 ---
 
 > 基于腾讯云轻量应用服务器，操作系统 `Debian 12.0 64bit`
