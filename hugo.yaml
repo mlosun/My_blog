@@ -5,31 +5,27 @@ menu:
   main: # 导航栏
     - name: 首页
       pageRef: /
-      weight: 0
+      weight: 1
     - name: 笔记
       pageRef: /docs
-      weight: 1
+      weight: 2
     - name: 博客
       pageRef: /blog
-      weight: 2
+      weight: 3
     # - name: 项目
     #   pageRef: /showcase
-    #   weight: 3
+    #   weight: 4
     - name: 关于
       pageRef: /about
-      weight: 4 
+      weight: 5 
     - name: 搜索
-      weight: 5
+      weight: 6
       params:
         type: search
   sidebar: # 侧边栏
-    - name: 更多
-      params:
-        type: separator
-      weight: 1
     - name: "关于"
       pageRef: "/about"
-      weight: 2
+      weight: 1
 
 params:
   editURL: # 编辑此页链接
