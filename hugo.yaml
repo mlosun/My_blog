@@ -3,6 +3,9 @@
 
 menu:
   main: # 导航栏
+    - name: 首页
+      pageRef: /
+      weight: 0
     - name: 笔记
       pageRef: /docs
       weight: 1
