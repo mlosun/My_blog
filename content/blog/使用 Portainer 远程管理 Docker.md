@@ -1,14 +1,14 @@
 ---
 created: 2024-10-08
-updated: 2024-10-08
+updated: 2024-12-08
 share: true
 date: 2024-10-07
 lastmod: 2024-10-08
+title: 使用 Portainer 远程管理 Docker
 tags:
   - Docker
 categories:
   - 技术
-title: 使用 Portainer 远程管理 Docker
 slug: portainer-manage-docker
 ---
 
