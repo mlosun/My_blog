@@ -119,8 +119,17 @@
       <description>
         
         
-        &lt;h2&gt;TODO&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;todo&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#todo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+        &lt;h2&gt;常用命令&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;常用命令&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;仅列出目前自己常用的，更多命令可参考 &lt;a href=&#34;https://www.runoob.com/linux/linux-command-manual.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux 命令大全 | 菜鸟教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cd &amp;lt;路径&amp;gt;&lt;/code&gt; 切换目录到路径下&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt; 列出当前路径下的全部文件及子目录&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;clear&lt;/code&gt; 清除终端屏幕&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;top&lt;/code&gt; 实时显示服务器系统和进程信息&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     
