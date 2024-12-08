@@ -1,6 +1,6 @@
 ---
 created: 2024-12-01
-updated: 2024-12-03
+updated: 2024-12-08
 share: true
 title: Obsidian插件清单
 ---
