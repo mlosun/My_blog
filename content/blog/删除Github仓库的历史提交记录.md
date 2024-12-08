@@ -1,15 +1,15 @@
 ---
 created: 2024-09-11
-updated: 2024-09-12
+updated: 2024-12-08
 share: true
 date: 2024-09-12
 lastmod: 2024-09-12
+title: 删除Github仓库的历史提交记录
 tags:
   - Gihub
   - Git
 categories:
   - 技巧
-title: 删除Github仓库的历史提交记录
 slug: Delete-GitHub-commit
 ---
 
