@@ -7,7 +7,7 @@ title: Docker
 
 ## 常用命令
 
-> 仅列出目前自己常用的，更多命令可参考 [Docker 命令大全 | 菜鸟教程](https://www.runoob.com/docker/docker-command-manual.html)
+> 仅列出目前自己常用的，更多命令可参考 [Docker 命令大全 \| 菜鸟教程](https://www.runoob.com/docker/docker-command-manual.html)
 
 - `docker ps` 列出 docker 容器，客获取**获取容器的 ID 和名称**
 - `docker stats` 实时显示 docker 容器的**资源使用情况**
