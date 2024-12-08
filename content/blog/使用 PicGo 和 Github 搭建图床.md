@@ -1,16 +1,16 @@
 ---
 created: 2024-09-15
-updated: 2024-09-15
+updated: 2024-12-08
 share: true
 date: 2024-09-15
 lastmod: 2024-09-15
+title: 使用 PicGo 和 Github 搭建图床
 tags:
   - PicGo
   - Github
   - 图床
 categories:
   - 折腾
-title: 使用 PicGo 和 Github 搭建图床
 slug: PicGo-Github
 ---
 

@@ -1,9 +1,10 @@
 ---
 created: 2024-09-10
-updated: 2024-10-27
+updated: 2024-12-08
 share: true
 date: 2024-09-10
 lastmod: 2024-10-27
+title: Obsidian + Github + Hugo 一站式笔记发布工作流
 tags:
   - Hugo
   - Obsidian
@@ -11,7 +12,6 @@ tags:
   - 发布
 categories:
   - 折腾
-title: Obsidian + Github + Hugo 一站式笔记发布工作流
 slug: Obsidian-Github-Hugo
 ---
 

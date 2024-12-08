@@ -1,16 +1,16 @@
 ---
 created: 2024-10-27
-updated: 2024-10-28
+updated: 2024-12-08
 share: true
 date: 2024-10-27
 lastmod: 2024-10-27
+title: Mac 终端技巧合集
 tags:
   - MacOS
   - 终端
   - 技巧
 categories:
   - 技术
-title: Mac 终端技巧合集
 slug: macos-terminal-tips
 ---
 

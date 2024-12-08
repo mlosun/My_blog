@@ -1,6 +1,6 @@
 ---
 created: 2024-12-04
-updated: 2024-12-04
+updated: 2024-12-08
 share: true
 title: Memos - 开源自托管轻量笔记
 ---

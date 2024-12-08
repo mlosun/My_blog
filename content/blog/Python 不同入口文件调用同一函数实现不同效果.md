@@ -1,15 +1,15 @@
 ---
 created: 2024-10-18
-updated: 2024-10-18
+updated: 2024-12-08
 share: true
 date: 2024-10-18
 lastmod: 2024-10-18
+title: Python 不同入口文件调用同一函数实现不同效果
 tags:
   - Python
   - 入口文件
 categories:
   - Python
-title: Python 不同入口文件调用同一函数实现不同效果
 slug: python-func-diff-entry-and-effects
 ---
 
