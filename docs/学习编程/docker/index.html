@@ -12,8 +12,8 @@
 <link fetchpriority="low" href="/My_blog/site.webmanifest" rel="manifest" />
 
   <title>Docker – 开源笔记 Mlosun.com</title>
-  <meta name="description" content="常用命令 仅列出当前自己用的上的，更多命令可参考 Docker 命令大全 | 菜鸟教程
-docker ps 列出 docker 容器，通常用于获取容器的 ID 和名称时使用 docker compose up " />
+  <meta name="description" content="常用命令 仅列出目前自己常用的，更多命令可参考 Docker 命令大全 | 菜鸟教程
+docker ps 列出 docker 容器，客获取获取容器的 ID 和名称 docker stats 实时显示 docker 容器的资源使用情况 docker logs -f --tail 100 &lt;容器ID或名称&gt; 实时显示的 100 条容器日志 docker compose up -d 在当前目录下以后台模式运行 docker-compose.yml 内定义的容器 核心概念 镜像（Image）：镜像是 Docker 中的一个模板。 容器（Container）：容器是镜像运行时的实例。 仓库（Repository）：仓库用来存储镜像。 配置文件 Dockerfile 定义如何构建一个镜像 Docker Dockerfile | 菜鸟教程 docker-compose.yml 定义和管理一个或多个容器 Docker Compose | 菜鸟教程 " />
 
   
     <link rel="canonical" href="https://mlosun.github.io/My_blog/docs/%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/docker/" itemprop="url" />
@@ -24,11 +24,24 @@ docker ps 列出 docker 容器，通常用于获取容器的 ID 和名称时使�
 <meta property="og:title" content="Docker" />
 <meta property="og:description" content="常用命令
     
-仅列出当前自己用的上的，更多命令可参考 Docker 命令大全 | 菜鸟教程
+仅列出目前自己常用的，更多命令可参考 Docker 命令大全 | 菜鸟教程
 
 
-docker ps 列出 docker 容器，通常用于获取容器的 ID 和名称时使用
-docker compose up
+docker ps 列出 docker 容器，客获取获取容器的 ID 和名称
+docker stats 实时显示 docker 容器的资源使用情况
+docker logs -f --tail 100 &lt;容器ID或名称&gt; 实时显示的 100 条容器日志
+docker compose up -d 在当前目录下以后台模式运行 docker-compose.yml 内定义的容器
+
+核心概念
+    
+镜像（Image）：镜像是 Docker 中的一个模板。
+容器（Container）：容器是镜像运行时的实例。
+仓库（Repository）：仓库用来存储镜像。
+
+配置文件
+    
+Dockerfile 定义如何构建一个镜像 Docker Dockerfile | 菜鸟教程
+docker-compose.yml 定义和管理一个或多个容器 Docker Compose | 菜鸟教程
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mlosun.github.io/My_blog/docs/%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/docker/" /><meta property="article:section" content="docs" />
@@ -37,13 +50,13 @@ docker compose up
 
   
   <meta itemprop="name" content="Docker">
-  <meta itemprop="description" content="常用命令 仅列出当前自己用的上的，更多命令可参考 Docker 命令大全 | 菜鸟教程
-docker ps 列出 docker 容器，通常用于获取容器的 ID 和名称时使用 docker compose up">
-  <meta itemprop="wordCount" content="60">
+  <meta itemprop="description" content="常用命令 仅列出目前自己常用的，更多命令可参考 Docker 命令大全 | 菜鸟教程
+docker ps 列出 docker 容器，客获取获取容器的 ID 和名称 docker stats 实时显示 docker 容器的资源使用情况 docker logs -f --tail 100 &lt;容器ID或名称&gt; 实时显示的 100 条容器日志 docker compose up -d 在当前目录下以后台模式运行 docker-compose.yml 内定义的容器 核心概念 镜像（Image）：镜像是 Docker 中的一个模板。 容器（Container）：容器是镜像运行时的实例。 仓库（Repository）：仓库用来存储镜像。 配置文件 Dockerfile 定义如何构建一个镜像 Docker Dockerfile | 菜鸟教程 docker-compose.yml 定义和管理一个或多个容器 Docker Compose | 菜鸟教程">
+  <meta itemprop="wordCount" content="240">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Docker">
-  <meta name="twitter:description" content="常用命令 仅列出当前自己用的上的，更多命令可参考 Docker 命令大全 | 菜鸟教程
-docker ps 列出 docker 容器，通常用于获取容器的 ID 和名称时使用 docker compose up">
+  <meta name="twitter:description" content="常用命令 仅列出目前自己常用的，更多命令可参考 Docker 命令大全 | 菜鸟教程
+docker ps 列出 docker 容器，客获取获取容器的 ID 和名称 docker stats 实时显示 docker 容器的资源使用情况 docker logs -f --tail 100 &lt;容器ID或名称&gt; 实时显示的 100 条容器日志 docker compose up -d 在当前目录下以后台模式运行 docker-compose.yml 内定义的容器 核心概念 镜像（Image）：镜像是 Docker 中的一个模板。 容器（Container）：容器是镜像运行时的实例。 仓库（Repository）：仓库用来存储镜像。 配置文件 Dockerfile 定义如何构建一个镜像 Docker Dockerfile | 菜鸟教程 docker-compose.yml 定义和管理一个或多个容器 Docker Compose | 菜鸟教程">
 
     <link rel="preload" href="/My_blog/css/compiled/main.min.23a12191daf50c320fcb5ce50e8c895a47f37ce361f66be7c771e19f254b32b2.css" as="style" integrity="sha256-I6Ehkdr1DDIPy1zlDoyJWkfzfONh9mvnx3HhnyVLMrI=" />
     <link href="/My_blog/css/compiled/main.min.23a12191daf50c320fcb5ce50e8c895a47f37ce361f66be7c771e19f254b32b2.css" rel="stylesheet" integrity="sha256-I6Ehkdr1DDIPy1zlDoyJWkfzfONh9mvnx3HhnyVLMrI=" />
@@ -329,6 +342,18 @@ docker ps 列出 docker 容器，通常用于获取容器的 ID 和名称时使�
                 class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
               >常用命令</a>
             </li>
+          <li>
+              <a
+                href="#%e6%a0%b8%e5%bf%83%e6%a6%82%e5%bf%b5"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >核心概念</a>
+            </li>
+          <li>
+              <a
+                href="#%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >配置文件</a>
+            </li>
           </ul>
   
               
@@ -541,6 +566,14 @@ docker ps 列出 docker 容器，通常用于获取容器的 ID 和名称时使�
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
         <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4">常用命令
         </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e6%a0%b8%e5%bf%83%e6%a6%82%e5%bf%b5">核心概念
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6">配置文件
+        </a>
       </li></ul>
       <div class="hx-mt-8 hx-border-t hx-bg-white hx-pt-8 hx-shadow-[0_-12px_16px_white] dark:hx-bg-dark dark:hx-shadow-[0_-12px_16px_#111] hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"><a class="hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50" href="https://github.com/mlosun/My_blog/blob/main/content/docs/%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/Docker.md" target="_blank" rel="noreferer">在 GitHub 上编辑此页 →</a>
         <button aria-hidden="true" id="backToTop" onClick="scrollUp();" class="hx-transition-all hx-duration-75 hx-opacity-0 hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50">
@@ -570,11 +603,24 @@ docker ps 列出 docker 容器，通常用于获取容器的 ID 和名称时使�
           <h1>Docker</h1>
           <h2>常用命令<span class="hx-absolute -hx-mt-20" id="常用命令"></span>
     <a href="#%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><blockquote>
-<p>仅列出当前自己用的上的，更多命令可参考 <a href="https://www.runoob.com/docker/docker-command-manual.html" target="_blank" rel="noopener">Docker 命令大全 | 菜鸟教程</a></p>
+<p>仅列出目前自己常用的，更多命令可参考 <a href="https://www.runoob.com/docker/docker-command-manual.html" target="_blank" rel="noopener">Docker 命令大全 | 菜鸟教程</a></p>
 </blockquote>
 <ul>
-<li><code>docker ps</code> 列出 docker 容器，通常用于获取容器的 ID 和名称时使用</li>
-<li><code>docker compose up</code></li>
+<li><code>docker ps</code> 列出 docker 容器，客获取<strong>获取容器的 ID 和名称</strong></li>
+<li><code>docker stats</code> 实时显示 docker 容器的<strong>资源使用情况</strong></li>
+<li><code>docker logs -f --tail 100 &lt;容器ID或名称&gt;</code> 实时显示的 100 条<strong>容器日志</strong></li>
+<li><code>docker compose up -d</code> 在当前目录下以后台模式运行 <code>docker-compose.yml</code> 内定义的容器</li>
+</ul>
+<h2>核心概念<span class="hx-absolute -hx-mt-20" id="核心概念"></span>
+    <a href="#%e6%a0%b8%e5%bf%83%e6%a6%82%e5%bf%b5" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li>镜像（Image）：镜像是 Docker 中的一个模板。</li>
+<li>容器（Container）：容器是镜像运行时的实例。</li>
+<li>仓库（Repository）：仓库用来存储镜像。</li>
+</ul>
+<h2>配置文件<span class="hx-absolute -hx-mt-20" id="配置文件"></span>
+    <a href="#%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li><code>Dockerfile</code> 定义如何构建一个镜像 <a href="https://www.runoob.com/docker/docker-dockerfile.html" target="_blank" rel="noopener">Docker Dockerfile | 菜鸟教程</a></li>
+<li><code>docker-compose.yml</code> 定义和管理一个或多个容器 <a href="https://www.runoob.com/docker/docker-compose.html" target="_blank" rel="noopener">Docker Compose | 菜鸟教程</a></li>
 </ul>
 
         </div>

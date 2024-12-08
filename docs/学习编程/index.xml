@@ -25,11 +25,24 @@
         
         &lt;h2&gt;常用命令&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;常用命令&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;仅列出当前自己用的上的，更多命令可参考 &lt;a href=&#34;https://www.runoob.com/docker/docker-command-manual.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker 命令大全 | 菜鸟教程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;仅列出目前自己常用的，更多命令可参考 &lt;a href=&#34;https://www.runoob.com/docker/docker-command-manual.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker 命令大全 | 菜鸟教程&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;docker ps&lt;/code&gt; 列出 docker 容器，通常用于获取容器的 ID 和名称时使用&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;docker compose up&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docker ps&lt;/code&gt; 列出 docker 容器，客获取&lt;strong&gt;获取容器的 ID 和名称&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docker stats&lt;/code&gt; 实时显示 docker 容器的&lt;strong&gt;资源使用情况&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docker logs -f --tail 100 &amp;lt;容器ID或名称&amp;gt;&lt;/code&gt; 实时显示的 100 条&lt;strong&gt;容器日志&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docker compose up -d&lt;/code&gt; 在当前目录下以后台模式运行 &lt;code&gt;docker-compose.yml&lt;/code&gt; 内定义的容器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;核心概念&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;核心概念&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%a0%b8%e5%bf%83%e6%a6%82%e5%bf%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;镜像（Image）：镜像是 Docker 中的一个模板。&lt;/li&gt;
+&lt;li&gt;容器（Container）：容器是镜像运行时的实例。&lt;/li&gt;
+&lt;li&gt;仓库（Repository）：仓库用来存储镜像。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;配置文件&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;配置文件&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Dockerfile&lt;/code&gt; 定义如何构建一个镜像 &lt;a href=&#34;https://www.runoob.com/docker/docker-dockerfile.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker Dockerfile | 菜鸟教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;docker-compose.yml&lt;/code&gt; 定义和管理一个或多个容器 &lt;a href=&#34;https://www.runoob.com/docker/docker-compose.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Docker Compose | 菜鸟教程&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
