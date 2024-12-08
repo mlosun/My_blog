@@ -1,14 +1,14 @@
 ---
 created: 2024-09-14
-updated: 2024-09-14
+updated: 2024-12-08
 share: true
 date: 2024-09-14
 lastmod: 2024-09-14
+title: Hugo 的常用命令
 tags:
   - Hugo
 categories:
   - 技巧
-title: Hugo 的常用命令
 slug: Common-Hugo-Commands
 ---
 
