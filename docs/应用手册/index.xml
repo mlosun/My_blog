@@ -1,0 +1,61 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>开源笔记 Mlosun.com – 应用手册</title>
+    <link>https://mlosun.github.io/My_blog/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/</link>
+    <description>Recent content in 应用手册 on 开源笔记 Mlosun.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    
+	  <atom:link href="https://mlosun.github.io/My_blog/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Obsidian插件清单</title>
+      <link>https://mlosun.github.io/My_blog/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mlosun.github.io/My_blog/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
+      <description>
+        
+        
+        &lt;blockquote&gt;
+&lt;p&gt;目前下面的清单都是当前正在使用的，包括一些有计划移除和还没有用起来的插件。&lt;/p&gt;
+&lt;p&gt;后续会阶段性更新本页面，同时陆续补充一些自己之前用过的优秀插件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Auto Link Title&lt;/strong&gt; 自动获取链接标题&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Better Word Count&lt;/strong&gt; 更好的字数统计&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;BRAT&lt;/strong&gt; 可安装未上架官方的插件&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Calendar&lt;/strong&gt; 日历插件&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;CSS Editor&lt;/strong&gt; 管理 css 片段 Cmd+P&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Dataview&lt;/strong&gt; 数据视图&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Enveloppe&lt;/strong&gt; 发布内容到 Github&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;File Color&lt;/strong&gt; 设置文件列表颜色&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;File Explorer Note Count&lt;/strong&gt; 文件夹列表显示笔记数&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Floating Search&lt;/strong&gt; 优化搜索体验&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Folder Focus Mode&lt;/strong&gt; 聚焦目录&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Homepage&lt;/strong&gt; 创建首页&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;I18N&lt;/strong&gt; 翻译插件的插件&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Image auto upload Plugin&lt;/strong&gt; 自动上传图片到图床&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Linter&lt;/strong&gt; 笔记内格式规整&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Markmind&lt;/strong&gt; 思维导图&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;MySnipppets&lt;/strong&gt; 一键开关 CSS 片段&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Note Toolbar&lt;/strong&gt; 自定义工具栏&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;QuickAdd&lt;/strong&gt; 快速增加内容&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Style Settings&lt;/strong&gt; 样式管理&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Tasks&lt;/strong&gt; 任务管理&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Templater&lt;/strong&gt; 模板增强&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;Vault Explorer&lt;/strong&gt; 管理全库资源&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;VSCode Editor&lt;/strong&gt; 在 Obsidian 里编辑代码&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
