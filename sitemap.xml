@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mlosun.github.io/My_blog/docs/%E6%9C%AC%E7%AB%99%E6%8C%87%E5%8D%97/</loc>
+  </url><url>
+    <loc>https://mlosun.github.io/My_blog/docs/%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/</loc>
+  </url><url>
+    <loc>https://mlosun.github.io/My_blog/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/</loc>
+  </url><url>
     <loc>https://mlosun.github.io/My_blog/categories/</loc>
     <lastmod>2024-10-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -145,10 +151,6 @@
   </url><url>
     <loc>https://mlosun.github.io/My_blog/showcase/</loc>
     <lastmod>2024-12-08T23:24:34+08:00</lastmod>
-  </url><url>
-    <loc>https://mlosun.github.io/My_blog/docs/%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/</loc>
-  </url><url>
-    <loc>https://mlosun.github.io/My_blog/docs/%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/</loc>
   </url><url>
     <loc>https://mlosun.github.io/My_blog/docs/%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/</loc>
   </url>
