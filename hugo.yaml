@@ -35,7 +35,7 @@ params:
     default: system # light | dark | system
     displayToggle: true
   page:  # 页宽
-    width: full  # full (100%), wide (90rem), normal (1280px)
+    width: normal  # full (100%), wide (90rem), normal (1280px)
   search:  # 搜索
     enable: true
     type: flexsearch
