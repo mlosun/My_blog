@@ -1,7 +1,9 @@
 ---
 created: 2024-10-29
-updated: 2024-12-09
+updated: 2024-12-10
 share: true
+date: 2024-10-29
+lastmod: 2024-12-09
 title: 应用手册
 weight: 2
 ---

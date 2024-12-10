@@ -2,6 +2,8 @@
 created: 2024-12-09
 updated: 2024-12-10
 share: true
+date: 2024-12-09
+lastmod: 2024-12-10
 title: 卡片笔记
 weight: 9
 ---

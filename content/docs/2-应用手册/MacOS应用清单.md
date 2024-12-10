@@ -1,7 +1,9 @@
 ---
 created: 2024-10-30
-updated: 2024-12-08
+updated: 2024-12-10
 share: true
+date: 2024-10-30
+lastmod: 2024-12-08
 title: MacOS应用清单
 ---
 
