@@ -1,7 +1,9 @@
 ---
 created: 2024-12-01
-updated: 2024-12-09
+updated: 2024-12-10
 share: true
+date: 2024-12-01
+lastmod: 2024-12-09
 title: Docker
 ---
 
