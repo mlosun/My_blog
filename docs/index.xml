@@ -5,6 +5,7 @@
     <description>Recent content in 介绍 on 开源笔记 Mlosun.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="https://mlosun.github.io/My_blog/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,6 +14,69 @@
         
       
     
+    
+    <item>
+      <title>B站视频收藏</title>
+      <link>https://mlosun.github.io/My_blog/docs/4-%E5%86%85%E5%AE%B9%E6%94%B6%E8%97%8F/b%E7%AB%99%E8%A7%86%E9%A2%91%E6%94%B6%E8%97%8F/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mlosun.github.io/My_blog/docs/4-%E5%86%85%E5%AE%B9%E6%94%B6%E8%97%8F/b%E7%AB%99%E8%A7%86%E9%A2%91%E6%94%B6%E8%97%8F/</guid>
+      <description>
+        
+        
+        &lt;blockquote&gt;
+&lt;p&gt;平时刷 B 站比较多，这里整理记录一些看过的优秀视频&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;巴以冲突&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;巴以冲突&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%b7%b4%e4%bb%a5%e5%86%b2%e7%aa%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1gv411W7Tt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;【巴以冲突(1/2)】一口气看完巴勒斯坦、以色列千年史 | 整理巴以冲突的渊源_哔哩哔哩_bilibili&lt;/a&gt;
+&lt;a href=&#34;https://www.bilibili.com/video/BV1LP4y1Y7Ch/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;【巴以冲突(2/2)】超长整理 | 百年纠纷渊源，孰是孰非？_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>MTPhotos - 好用的照片管理系统</title>
+      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/mtphotos---%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/mtphotos---%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</guid>
+      <description>
+        
+        
+        &lt;p&gt;MT Photos 是一款闭源付费的自托管照片管理系统，和知名的开源照片管理系统 &lt;code&gt;Immich&lt;/code&gt; 相比，部署更简单，更符合国人习惯。支持试用 1 个月，永久版价格 118 元（偶尔活动价 99 元）。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mtmt.tech/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官网&lt;/a&gt;｜&lt;a href=&#34;https://mtmt.tech/docs/start/introduction&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;文档&lt;/a&gt;｜&lt;a href=&#34;https://auth.mtmt.tech/buy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;购买&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我用到的主要功能如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 Docker 部署在群晖 Nas 中&lt;/li&gt;
+&lt;li&gt;移动端 App 支持手机照片自动备份
+&lt;ul&gt;
+&lt;li&gt;App 备份的照片自动按拍摄时间重命名&lt;/li&gt;
+&lt;li&gt;App 备份的照片自动按年月目录分类&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;支持添加外部图库（需要在部署时映射好存储卷）&lt;/li&gt;
+&lt;li&gt;支持 AI 识别人脸、场景、文本、GPS（内置 API 够用）&lt;/li&gt;
+&lt;li&gt;支持按时间线、人物、地点、场景、相册方式浏览照片&lt;/li&gt;
+&lt;li&gt;支持按以文搜图模式搜索照片，支持那年今日&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其余多用户、分享、自定义 API、两步验证等功能自己暂时用不到。&lt;/p&gt;
+&lt;h2&gt;我的实践&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;我的实践&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%88%91%e7%9a%84%e5%ae%9e%e8%b7%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;2024-12-01 尝试 Immich+AI 失败，开始试用 MT-Photos&lt;/li&gt;
+&lt;li&gt;2024-12-10 趁活动 99 元下单永久订阅&lt;/li&gt;
+&lt;li&gt;按照 &lt;a href=&#34;https://mtmt.tech/docs/example/dsm2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;教程&lt;/a&gt; 部署在家中群晖 Nas 上&lt;/li&gt;
+&lt;li&gt;使用 &lt;a href=&#34;https://mtmt.tech/docs/start/app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;App&lt;/a&gt; 在手机上设置好自动备份&lt;/li&gt;
+&lt;li&gt;历史照片使用外部图库方式暂时先一股脑映射进去&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;计划&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;计划&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%ae%a1%e5%88%92&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;在群晖 Nas 中使用 Cloud Sync 同步到腾讯云 COS&lt;/li&gt;
+&lt;li&gt;外部图库的为历史多年多处备份，未去重、未整理&lt;/li&gt;
+&lt;li&gt;目前服务端仅在内网访问，外出时 App 无法查看照片&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
     
     <item>
       <title>什么是数字花园？</title>
@@ -86,7 +150,7 @@
     <item>
       <title>1Panel配置</title>
       <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/1panel%E9%85%8D%E7%BD%AE/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/1panel%E9%85%8D%E7%BD%AE/</guid>
       <description>
@@ -128,20 +192,23 @@
     </item>
     
     <item>
-      <title>B站视频收藏</title>
-      <link>https://mlosun.github.io/My_blog/docs/4-%E5%86%85%E5%AE%B9%E6%94%B6%E8%97%8F/b%E7%AB%99%E8%A7%86%E9%A2%91%E6%94%B6%E8%97%8F/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Memos - 开源自托管轻量笔记</title>
+      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/memos---%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E8%BD%BB%E9%87%8F%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.github.io/My_blog/docs/4-%E5%86%85%E5%AE%B9%E6%94%B6%E8%97%8F/b%E7%AB%99%E8%A7%86%E9%A2%91%E6%94%B6%E8%97%8F/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/memos---%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E8%BD%BB%E9%87%8F%E7%AC%94%E8%AE%B0/</guid>
       <description>
         
         
-        &lt;blockquote&gt;
-&lt;p&gt;平时刷 B 站比较多，这里整理记录一些看过的优秀视频&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;巴以冲突&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;巴以冲突&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%b7%b4%e4%bb%a5%e5%86%b2%e7%aa%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1gv411W7Tt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;【巴以冲突(1/2)】一口气看完巴勒斯坦、以色列千年史 | 整理巴以冲突的渊源_哔哩哔哩_bilibili&lt;/a&gt;
-&lt;a href=&#34;https://www.bilibili.com/video/BV1LP4y1Y7Ch/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;【巴以冲突(2/2)】超长整理 | 百年纠纷渊源，孰是孰非？_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Memos 是开源且可以自托管的轻量化笔记，采取类微博式的记录方式，适合捕捉随时发生的灵感和想法。同时 Memos 有一个活跃的社区，创造出了包括 App、Obsidian 插件、Chrome 扩展在内的很多周边产品，让随时随地记录想法变得更加灵活和方便。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.usememos.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官网&lt;/a&gt; | &lt;a href=&#34;https://github.com/usememos/memos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;仓库&lt;/a&gt; | &lt;a href=&#34;https://www.usememos.com/docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;文档&lt;/a&gt; | &lt;a href=&#34;https://www.usememos.com/docs/contribution/community&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;社区&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;我的实践&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;我的实践&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%88%91%e7%9a%84%e5%ae%9e%e8%b7%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;使用 1Panel 应用（docker）部署在腾讯轻量应用服务器上&lt;/li&gt;
+&lt;li&gt;使用 &lt;a href=&#34;https://github.com/mudkipme/MoeMemos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iOS App&lt;/a&gt; 在手机上随时随地记录想法&lt;/li&gt;
+&lt;li&gt;使用 &lt;a href=&#34;https://github.com/lmm214/memos-bber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chrome扩展&lt;/a&gt;，便于在浏览网页时摘录内容&lt;/li&gt;
+&lt;li&gt;使用 &lt;a href=&#34;https://github.com/RyoJerryYu/obsidian-memos-sync&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Obsidian插件&lt;/a&gt; 将记录的内容同步到 Obsidian 每日笔记中&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
@@ -149,7 +216,7 @@
     <item>
       <title>Chrome扩展清单</title>
       <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95/</guid>
       <description>
@@ -167,7 +234,7 @@
     <item>
       <title>Docker</title>
       <link>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/docker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/docker/</guid>
       <description>
@@ -201,7 +268,7 @@
     <item>
       <title>Linux</title>
       <link>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/linux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/linux/</guid>
       <description>
@@ -222,9 +289,66 @@
     </item>
     
     <item>
+      <title>Obsidian插件清单</title>
+      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
+      <description>
+        
+        
+        &lt;blockquote&gt;
+&lt;p&gt;目前下面的清单都是当前正在使用的，包括一些有计划移除和还没有用起来的插件。&lt;/p&gt;
+&lt;p&gt;后续会阶段性更新本页面，同时陆续补充一些自己之前用过的优秀插件。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Auto Link Title&lt;/strong&gt; 自动获取链接标题&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Better Word Count&lt;/strong&gt; 更好的字数统计&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BRAT&lt;/strong&gt; 可安装未上架官方的插件&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Calendar&lt;/strong&gt; 日历插件&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSS Editor&lt;/strong&gt; 管理 css 片段 Cmd+P&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dataview&lt;/strong&gt; 数据视图&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enveloppe&lt;/strong&gt; 发布内容到 Github&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File Color&lt;/strong&gt; 设置文件列表颜色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File Explorer Note Count&lt;/strong&gt; 文件夹列表显示笔记数&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Floating Search&lt;/strong&gt; 优化搜索体验&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Folder Focus Mode&lt;/strong&gt; 聚焦目录&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Homepage&lt;/strong&gt; 创建首页&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;I18N&lt;/strong&gt; 翻译插件的插件&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Image auto upload Plugin&lt;/strong&gt; 自动上传图片到图床&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linter&lt;/strong&gt; 笔记内格式规整&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markmind&lt;/strong&gt; 思维导图&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MySnipppets&lt;/strong&gt; 一键开关 CSS 片段&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Note Toolbar&lt;/strong&gt; 自定义工具栏&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;QuickAdd&lt;/strong&gt; 快速增加内容&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Style Settings&lt;/strong&gt; 样式管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tasks&lt;/strong&gt; 任务管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Templater&lt;/strong&gt; 模板增强&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vault Explorer&lt;/strong&gt; 管理全库资源&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VSCode Editor&lt;/strong&gt; 在 Obsidian 里编辑代码&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/python/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/python/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;a href=&#34;https://liaoxuefeng.com/books/python/introduction/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;简介 - Python教程 - 廖雪峰的官方网站&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>MacOS应用清单</title>
       <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/macos%E5%BA%94%E7%94%A8%E6%B8%85%E5%8D%95/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/macos%E5%BA%94%E7%94%A8%E6%B8%85%E5%8D%95/</guid>
       <description>
@@ -270,129 +394,6 @@
 &lt;li&gt;&lt;a href=&#34;https://work.weixin.qq.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;企业微信&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.feishu.cn/download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;飞书&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Memos - 开源自托管轻量笔记</title>
-      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/memos---%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E8%BD%BB%E9%87%8F%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/memos---%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E8%BD%BB%E9%87%8F%E7%AC%94%E8%AE%B0/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Memos 是开源且可以自托管的轻量化笔记，采取类微博式的记录方式，适合捕捉随时发生的灵感和想法。同时 Memos 有一个活跃的社区，创造出了包括 App、Obsidian 插件、Chrome 扩展在内的很多周边产品，让随时随地记录想法变得更加灵活和方便。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.usememos.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官网&lt;/a&gt; | &lt;a href=&#34;https://github.com/usememos/memos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;仓库&lt;/a&gt; | &lt;a href=&#34;https://www.usememos.com/docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;文档&lt;/a&gt; | &lt;a href=&#34;https://www.usememos.com/docs/contribution/community&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;社区&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;我的实践&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;我的实践&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%88%91%e7%9a%84%e5%ae%9e%e8%b7%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;使用 1Panel 应用（docker）部署在腾讯轻量应用服务器上&lt;/li&gt;
-&lt;li&gt;使用 &lt;a href=&#34;https://github.com/mudkipme/MoeMemos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;iOS App&lt;/a&gt; 在手机上随时随地记录想法&lt;/li&gt;
-&lt;li&gt;使用 &lt;a href=&#34;https://github.com/lmm214/memos-bber&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chrome扩展&lt;/a&gt;，便于在浏览网页时摘录内容&lt;/li&gt;
-&lt;li&gt;使用 &lt;a href=&#34;https://github.com/RyoJerryYu/obsidian-memos-sync&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Obsidian插件&lt;/a&gt; 将记录的内容同步到 Obsidian 每日笔记中&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>MTPhotos - 好用的照片管理系统</title>
-      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/mtphotos---%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/mtphotos---%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</guid>
-      <description>
-        
-        
-        &lt;p&gt;MT Photos 是一款闭源付费的自托管照片管理系统，和知名的开源照片管理系统 &lt;code&gt;Immich&lt;/code&gt; 相比，部署更简单，更符合国人习惯。支持试用 1 个月，永久版价格 118 元（偶尔活动价 99 元）。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://mtmt.tech/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官网&lt;/a&gt;｜&lt;a href=&#34;https://mtmt.tech/docs/start/introduction&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;文档&lt;/a&gt;｜&lt;a href=&#34;https://auth.mtmt.tech/buy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;购买&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;我用到的主要功能如下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;使用 Docker 部署在群晖 Nas 中&lt;/li&gt;
-&lt;li&gt;移动端 App 支持手机照片自动备份
-&lt;ul&gt;
-&lt;li&gt;App 备份的照片自动按拍摄时间重命名&lt;/li&gt;
-&lt;li&gt;App 备份的照片自动按年月目录分类&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;支持添加外部图库（需要在部署时映射好存储卷）&lt;/li&gt;
-&lt;li&gt;支持 AI 识别人脸、场景、文本、GPS（内置 API 够用）&lt;/li&gt;
-&lt;li&gt;支持按时间线、人物、地点、场景、相册方式浏览照片&lt;/li&gt;
-&lt;li&gt;支持按以文搜图模式搜索照片，支持那年今日&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;其余多用户、分享、自定义 API、两步验证等功能自己暂时用不到。&lt;/p&gt;
-&lt;h2&gt;我的实践&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;我的实践&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%88%91%e7%9a%84%e5%ae%9e%e8%b7%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;2024-12-01 尝试 Immich+AI 失败，开始试用 MT-Photos&lt;/li&gt;
-&lt;li&gt;2024-12-10 趁活动 99 元下单永久订阅&lt;/li&gt;
-&lt;li&gt;按照 &lt;a href=&#34;https://mtmt.tech/docs/example/dsm2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;教程&lt;/a&gt; 部署在家中群晖 Nas 上&lt;/li&gt;
-&lt;li&gt;使用 &lt;a href=&#34;https://mtmt.tech/docs/start/app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;App&lt;/a&gt; 在手机上设置好自动备份&lt;/li&gt;
-&lt;li&gt;历史照片使用外部图库方式暂时先一股脑映射进去&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;计划&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;计划&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e8%ae%a1%e5%88%92&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;在群晖 Nas 中使用 Cloud Sync 同步到腾讯云 COS&lt;/li&gt;
-&lt;li&gt;外部图库的为历史多年多处备份，未去重、未整理&lt;/li&gt;
-&lt;li&gt;目前服务端仅在内网访问，外出时 App 无法查看照片&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Obsidian插件清单</title>
-      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
-      <description>
-        
-        
-        &lt;blockquote&gt;
-&lt;p&gt;目前下面的清单都是当前正在使用的，包括一些有计划移除和还没有用起来的插件。&lt;/p&gt;
-&lt;p&gt;后续会阶段性更新本页面，同时陆续补充一些自己之前用过的优秀插件。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Auto Link Title&lt;/strong&gt; 自动获取链接标题&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Better Word Count&lt;/strong&gt; 更好的字数统计&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;BRAT&lt;/strong&gt; 可安装未上架官方的插件&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Calendar&lt;/strong&gt; 日历插件&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CSS Editor&lt;/strong&gt; 管理 css 片段 Cmd+P&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dataview&lt;/strong&gt; 数据视图&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Enveloppe&lt;/strong&gt; 发布内容到 Github&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;File Color&lt;/strong&gt; 设置文件列表颜色&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;File Explorer Note Count&lt;/strong&gt; 文件夹列表显示笔记数&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Floating Search&lt;/strong&gt; 优化搜索体验&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Folder Focus Mode&lt;/strong&gt; 聚焦目录&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Homepage&lt;/strong&gt; 创建首页&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;I18N&lt;/strong&gt; 翻译插件的插件&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Image auto upload Plugin&lt;/strong&gt; 自动上传图片到图床&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Linter&lt;/strong&gt; 笔记内格式规整&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Markmind&lt;/strong&gt; 思维导图&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;MySnipppets&lt;/strong&gt; 一键开关 CSS 片段&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Note Toolbar&lt;/strong&gt; 自定义工具栏&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;QuickAdd&lt;/strong&gt; 快速增加内容&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Style Settings&lt;/strong&gt; 样式管理&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tasks&lt;/strong&gt; 任务管理&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Templater&lt;/strong&gt; 模板增强&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vault Explorer&lt;/strong&gt; 管理全库资源&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;VSCode Editor&lt;/strong&gt; 在 Obsidian 里编辑代码&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/python/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;a href=&#34;https://liaoxuefeng.com/books/python/introduction/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;简介 - Python教程 - 廖雪峰的官方网站&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
