@@ -26,3 +26,7 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 - [Memos](https://apps.fit2cloud.com/1panel/memos) 轻量级、自托管的备忘录中心
 - [FreshRSS](https://apps.fit2cloud.com/1panel/freshrss) 自托管的 RSS 和 Atom 源聚合器
 - [Homepage](https://apps.fit2cloud.com/1panel/homepage) 高度可定制的应用程序仪表板
+
+## 第三方应用商店
+- [GitHub - okxlin/appstore](https://github.com/okxlin/appstore)
+- [GitHub - QYG2297248353/appstore-1panel](https://github.com/QYG2297248353/appstore-1panel)
