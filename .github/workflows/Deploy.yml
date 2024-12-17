@@ -22,7 +22,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "latest"
+          hugo-version: "0.140.0"
           extended: true
         # 设置 Hugo，安装最新版本的 Hugo 扩展版
 
