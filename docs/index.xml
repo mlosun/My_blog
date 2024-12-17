@@ -16,6 +16,92 @@
     
     
     <item>
+      <title>frp - 群晖Nas内网穿透应用</title>
+      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp---%E7%BE%A4%E6%99%96nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp---%E7%BE%A4%E6%99%96nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;介绍&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;介绍&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bb%8b%e7%bb%8d&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议，且支持 P2P 通信。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/fatedier/frp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;仓库&lt;/a&gt; | &lt;a href=&#34;https://gofrp.org/zh-cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;文档&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;我的实践&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;我的实践&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%88%91%e7%9a%84%e5%ae%9e%e8%b7%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;frp 分为服务端和客户端，一般使用 frps（server） 和 frpc（client） 表示。
+以下适用于当前 0.61.0 版本&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;准备工作&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;准备工作&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;云服务器使用 1Panel 面板&lt;/li&gt;
+&lt;li&gt;群晖 Nas 添加矿神套件源 &lt;code&gt;https://spk7.imnks.com&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;部署 frps&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;部署-frps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%83%a8%e7%bd%b2-frps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;在云服务器的 1Panel 应用商店搜索 &lt;code&gt;frp 服务端&lt;/code&gt; 并安装&lt;/li&gt;
+&lt;li&gt;记录下&lt;strong&gt;服务端口&lt;/strong&gt;（默认 7000）、&lt;strong&gt;Dashboard 端口&lt;/strong&gt;（默认 7500）、&lt;strong&gt;密钥&lt;/strong&gt;（即 token）&lt;/li&gt;
+&lt;li&gt;服务器防火墙放行&lt;strong&gt;服务端口&lt;/strong&gt;和 &lt;strong&gt;Dashboard 端口&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;可通过访问&lt;strong&gt;公网 ID+Dashboard 端口&lt;/strong&gt;的方式查看服务端仪表盘&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;部署 frpc&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;部署-frpc&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%83%a8%e7%bd%b2-frpc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在群晖 Nas 的套件中心搜索 &lt;code&gt;Frpc客户端&lt;/code&gt; 并安装&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开应用（即 frpc 配置文件）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;配置全局参数&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;serverAddr = &amp;#34;0.0.0.0&amp;#34; # 云服务器的公网IP
+serverPort = 1234 # frps配置的服务端口
+auth.method = &amp;#34;token&amp;#34; # 默认token
+auth.token = &amp;#34;token&amp;#34; # frps配置的密钥&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;配置内网服务（每项服务都单独配置一套）&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[[proxies]]
+name = &amp;#34;app&amp;#34; # 服务名称，不可重复
+type = &amp;#34;tcp&amp;#34; # 常规使用tcp即可
+localIP = &amp;#34;127.0.0.1&amp;#34; # 本机的服务就用127.0.0.1
+localPort = 1234 # 服务在本机的端口号
+remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>B站视频收藏</title>
       <link>https://mlosun.github.io/My_blog/docs/4-%E5%86%85%E5%AE%B9%E6%94%B6%E8%97%8F/b%E7%AB%99%E8%A7%86%E9%A2%91%E6%94%B6%E8%97%8F/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>

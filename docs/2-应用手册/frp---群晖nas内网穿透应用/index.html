@@ -11,47 +11,32 @@
 <link rel="apple-touch-icon" href="/My_blog/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/My_blog/site.webmanifest" rel="manifest" />
 
-  <title>值得学习的数字花园 – 开源笔记 Mlosun.com</title>
-  <meta name="description" content="整理一些自己日常遇到的优秀「数字花园」，后续或许会专门找时间整理一下。
-酷口家数字花园-研究卡片盒笔记法，打造第二大脑 LearnData 开源笔记 | LearnData 开源笔记 AboutTheGarden 数字花园🌱 数字花园 HomePage 老爸的数字花园 - Nas 私有云 谭淞宸的知识库 Rome 🎡 学习者的数字游乐园 — 在玩耍中学习 数字花园合集:仿生猫不会梦见电子猫粮 — To make each day count. " />
+  <title>frp - 群晖Nas内网穿透应用 – 开源笔记 Mlosun.com</title>
+  <meta name="description" content="介绍 frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议，且支持 P2P 通信。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。" />
 
   
-    <link rel="canonical" href="https://mlosun.github.io/My_blog/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/" itemprop="url" />
+    <link rel="canonical" href="https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp---%E7%BE%A4%E6%99%96nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8/" itemprop="url" />
   
 
   
 
-<meta property="og:title" content="值得学习的数字花园" />
-<meta property="og:description" content="整理一些自己日常遇到的优秀「数字花园」，后续或许会专门找时间整理一下。
-
-酷口家数字花园-研究卡片盒笔记法，打造第二大脑
-LearnData 开源笔记 | LearnData 开源笔记
-AboutTheGarden
-数字花园🌱
-数字花园
-HomePage
-老爸的数字花园 - Nas 私有云
-谭淞宸的知识库
-Rome
-🎡 学习者的数字游乐园 — 在玩耍中学习
-数字花园合集:仿生猫不会梦见电子猫粮 — To make each day count.
-" />
+<meta property="og:title" content="frp - 群晖Nas内网穿透应用" />
+<meta property="og:description" content="介绍
+    frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议，且支持 P2P 通信。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mlosun.github.io/My_blog/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/" /><meta property="article:section" content="docs" />
-<meta property="article:published_time" content="2024-12-09T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-12-09T00:00:00+00:00" />
+<meta property="og:url" content="https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp---%E7%BE%A4%E6%99%96nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2024-12-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-12-17T00:00:00+00:00" />
 
   
-  <meta itemprop="name" content="值得学习的数字花园">
-  <meta itemprop="description" content="整理一些自己日常遇到的优秀「数字花园」，后续或许会专门找时间整理一下。
-酷口家数字花园-研究卡片盒笔记法，打造第二大脑 LearnData 开源笔记 | LearnData 开源笔记 AboutTheGarden 数字花园🌱 数字花园 HomePage 老爸的数字花园 - Nas 私有云 谭淞宸的知识库 Rome 🎡 学习者的数字游乐园 — 在玩耍中学习 数字花园合集:仿生猫不会梦见电子猫粮 — To make each day count.">
-  <meta itemprop="datePublished" content="2024-12-09T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-12-09T00:00:00+00:00">
-  <meta itemprop="wordCount" content="141">
+  <meta itemprop="name" content="frp - 群晖Nas内网穿透应用">
+  <meta itemprop="description" content="介绍 frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议，且支持 P2P 通信。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。">
+  <meta itemprop="datePublished" content="2024-12-17T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-12-17T00:00:00+00:00">
+  <meta itemprop="wordCount" content="479">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="值得学习的数字花园">
-  <meta name="twitter:description" content="整理一些自己日常遇到的优秀「数字花园」，后续或许会专门找时间整理一下。
-酷口家数字花园-研究卡片盒笔记法，打造第二大脑 LearnData 开源笔记 | LearnData 开源笔记 AboutTheGarden 数字花园🌱 数字花园 HomePage 老爸的数字花园 - Nas 私有云 谭淞宸的知识库 Rome 🎡 学习者的数字游乐园 — 在玩耍中学习 数字花园合集:仿生猫不会梦见电子猫粮 — To make each day count.">
+  <meta name="twitter:title" content="frp - 群晖Nas内网穿透应用">
+  <meta name="twitter:description" content="介绍 frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议，且支持 P2P 通信。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。">
 
     <link rel="preload" href="/My_blog/css/compiled/main.min.23a12191daf50c320fcb5ce50e8c895a47f37ce361f66be7c771e19f254b32b2.css" as="style" integrity="sha256-I6Ehkdr1DDIPy1zlDoyJWkfzfONh9mvnx3HhnyVLMrI=" />
     <link href="/My_blog/css/compiled/main.min.23a12191daf50c320fcb5ce50e8c895a47f37ce361f66be7c771e19f254b32b2.css" rel="stylesheet" integrity="sha256-I6Ehkdr1DDIPy1zlDoyJWkfzfONh9mvnx3HhnyVLMrI=" />
@@ -227,7 +212,7 @@ Rome
               
             </li></ul>
       </div>
-            </li><li class="hx-flex hx-flex-col "><a
+            </li><li class="hx-flex hx-flex-col open"><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/"
@@ -236,13 +221,28 @@ Rome
         <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg></span>
     </a>
               <div class="ltr:hx-pr-0 hx-overflow-hidden">
-        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
+        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col open"><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
     href="/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp---%E7%BE%A4%E6%99%96nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8/"
     
   >frp - 群晖Nas内网穿透应用
     </a>
+  
+    <ul class='hx-flex hx-flex-col hx-gap-1 hx-relative before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] dark:before:hx-bg-neutral-800 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-pr-3 rtl:before:hx-right-0 ltr:hx-ml-3 rtl:hx-mr-3'><li>
+              <a
+                href="#%e4%bb%8b%e7%bb%8d"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >介绍</a>
+            </li>
+          <li>
+              <a
+                href="#%e6%88%91%e7%9a%84%e5%ae%9e%e8%b7%b5"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >我的实践</a>
+            </li>
+          </ul>
+  
               
             </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
@@ -356,7 +356,7 @@ Rome
   >工作流程
     </a>
               
-            </li><li class="hx-flex hx-flex-col open"><a
+            </li><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/My_blog/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/"
@@ -365,14 +365,13 @@ Rome
         <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg></span>
     </a>
               <div class="ltr:hx-pr-0 hx-overflow-hidden">
-        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col open"><a
+        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/My_blog/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/"
     
   >值得学习的数字花园
     </a>
-  
               
             </li></ul>
       </div>
@@ -520,7 +519,7 @@ Rome
               
             </li></ul>
       </div></li>
-          <li class=""><a
+          <li class="open"><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/"
@@ -528,9 +527,9 @@ Rome
   >应用手册
         <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg></span>
     </a><div class="ltr:hx-pr-0 hx-overflow-hidden">
-        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
+        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col open"><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
     href="/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp---%E7%BE%A4%E6%99%96nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8/"
     
   >frp - 群晖Nas内网穿透应用
@@ -645,7 +644,7 @@ Rome
     
   >工作流程
     </a></li>
-          <li class="open"><a
+          <li class=""><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/My_blog/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/"
@@ -653,9 +652,9 @@ Rome
   >卡片笔记
         <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx-h-[18px] hx-min-w-[18px] hx-rounded-sm hx-p-0.5 hover:hx-bg-gray-800/5 dark:hover:hx-bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx-origin-center hx-transition-transform rtl:-hx-rotate-180"></path></svg></span>
     </a><div class="ltr:hx-pr-0 hx-overflow-hidden">
-        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col open"><a
+        <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      sidebar-active-item hx-bg-primary-100 hx-font-semibold hx-text-primary-800 contrast-more:hx-border contrast-more:hx-border-primary-500 dark:hx-bg-primary-400/10 dark:hx-text-primary-600 contrast-more:dark:hx-border-primary-500"
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/My_blog/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/"
     
   >值得学习的数字花园
@@ -687,8 +686,28 @@ Rome
 </div></div></aside>
     
 <nav class="hextra-toc hx-order-last hx-hidden hx-w-64 hx-shrink-0 xl:hx-block print:hx-hidden hx-px-4" aria-label="table of contents">
-    <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4">
-      <div class=" hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"><a class="hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50" href="https://github.com/mlosun/My_blog/blob/main/content/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD.md" target="_blank" rel="noreferer">在 GitHub 上编辑此页 →</a>
+    <div class="hextra-scrollbar hx-sticky hx-top-16 hx-overflow-y-auto hx-pr-4 hx-pt-6 hx-text-sm [hyphens:auto] hx-max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] ltr:hx--mr-4 rtl:hx--ml-4"><p class="hx-mb-4 hx-font-semibold hx-tracking-tight">此页上</p><ul>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e4%bb%8b%e7%bb%8d">介绍
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e6%88%91%e7%9a%84%e5%ae%9e%e8%b7%b5">我的实践
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c">准备工作
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e9%83%a8%e7%bd%b2-frps">部署 frps
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e9%83%a8%e7%bd%b2-frpc">部署 frpc
+        </a>
+      </li></ul>
+      <div class="hx-mt-8 hx-border-t hx-bg-white hx-pt-8 hx-shadow-[0_-12px_16px_white] dark:hx-bg-dark dark:hx-shadow-[0_-12px_16px_#111] hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"><a class="hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50" href="https://github.com/mlosun/My_blog/blob/main/content/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp%20-%20%E7%BE%A4%E6%99%96Nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8.md" target="_blank" rel="noreferer">在 GitHub 上编辑此页 →</a>
         <button aria-hidden="true" id="backToTop" onClick="scrollUp();" class="hx-transition-all hx-duration-75 hx-opacity-0 hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50">
           <span>返回顶部</span>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hx-inline ltr:hx-ml-1 rtl:hx-mr-1 hx-h-3.5 hx-w-3.5 hx-border hx-rounded-full hx-border-gray-500 hover:hx-border-gray-900 dark:hx-border-gray-400 dark:hover:hx-border-gray-100 contrast-more:hx-border-gray-800 contrast-more:dark:hx-border-gray-50">
@@ -708,31 +727,94 @@ Rome
           <a href="/My_blog/docs/">介绍</a>
         </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         <div class="hx-whitespace-nowrap hx-transition-colors hx-min-w-[24px] hx-overflow-hidden hx-text-ellipsis hover:hx-text-gray-900 dark:hover:hx-text-gray-100">
-          <a href="/My_blog/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/">卡片笔记</a>
-        </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx-whitespace-nowrap hx-transition-colors hx-font-medium hx-text-gray-700 contrast-more:hx-font-bold contrast-more:hx-text-current dark:hx-text-gray-100 contrast-more:dark:hx-text-current">值得学习的数字花园</div>
+          <a href="/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/">应用手册</a>
+        </div><svg class="hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx-whitespace-nowrap hx-transition-colors hx-font-medium hx-text-gray-700 contrast-more:hx-font-bold contrast-more:hx-text-current dark:hx-text-gray-100 contrast-more:dark:hx-text-current">frp - 群晖Nas内网穿透应用</div>
   </div>
 
         <div class="content">
-          <h1>值得学习的数字花园</h1>
-          <p>整理一些自己日常遇到的优秀「数字花园」，后续或许会专门找时间整理一下。</p>
-<ul>
-<li><a href="https://weqoocu.com/" target="_blank" rel="noopener">酷口家数字花园-研究卡片盒笔记法，打造第二大脑</a></li>
-<li><a href="https://newzone.top/" target="_blank" rel="noopener">LearnData 开源笔记 | LearnData 开源笔记</a></li>
-<li><a href="https://garden.oldwinter.top/" target="_blank" rel="noopener">AboutTheGarden</a></li>
-<li><a href="https://notes.dabing.one/" target="_blank" rel="noopener">数字花园🌱</a></li>
-<li><a href="https://wiki.7wate.com/" target="_blank" rel="noopener">数字花园</a></li>
-<li><a href="https://garden.maxieewong.com/" target="_blank" rel="noopener">HomePage</a></li>
-<li><a href="https://nasdaddy.com/" target="_blank" rel="noopener">老爸的数字花园 - Nas 私有云</a></li>
-<li><a href="https://notes.tansongchen.com/" target="_blank" rel="noopener">谭淞宸的知识库</a></li>
-<li><a href="https://charmer.fun/" target="_blank" rel="noopener">Rome</a></li>
-<li><a href="https://pimgeek.com/notes/" target="_blank" rel="noopener">🎡 学习者的数字游乐园 — 在玩耍中学习</a></li>
-<li><a href="https://jefftay.com/%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD%E5%90%88%E9%9B%86" target="_blank" rel="noopener">数字花园合集:仿生猫不会梦见电子猫粮 — To make each day count.</a></li>
-</ul>
+          <h1>frp - 群晖Nas内网穿透应用</h1>
+          <h2>介绍<span class="hx-absolute -hx-mt-20" id="介绍"></span>
+    <a href="#%e4%bb%8b%e7%bb%8d" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议，且支持 P2P 通信。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。</p>
+<p><a href="https://github.com/fatedier/frp" target="_blank" rel="noopener">仓库</a> | <a href="https://gofrp.org/zh-cn/" target="_blank" rel="noopener">文档</a></p>
+<h2>我的实践<span class="hx-absolute -hx-mt-20" id="我的实践"></span>
+    <a href="#%e6%88%91%e7%9a%84%e5%ae%9e%e8%b7%b5" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><blockquote>
+<p>frp 分为服务端和客户端，一般使用 frps（server） 和 frpc（client） 表示。
+以下适用于当前 0.61.0 版本</p>
+</blockquote>
+<h4>准备工作<span class="hx-absolute -hx-mt-20" id="准备工作"></span>
+    <a href="#%e5%87%86%e5%a4%87%e5%b7%a5%e4%bd%9c" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ol>
+<li>云服务器使用 1Panel 面板</li>
+<li>群晖 Nas 添加矿神套件源 <code>https://spk7.imnks.com</code></li>
+</ol>
+<h4>部署 frps<span class="hx-absolute -hx-mt-20" id="部署-frps"></span>
+    <a href="#%e9%83%a8%e7%bd%b2-frps" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ol>
+<li>在云服务器的 1Panel 应用商店搜索 <code>frp 服务端</code> 并安装</li>
+<li>记录下<strong>服务端口</strong>（默认 7000）、<strong>Dashboard 端口</strong>（默认 7500）、<strong>密钥</strong>（即 token）</li>
+<li>服务器防火墙放行<strong>服务端口</strong>和 <strong>Dashboard 端口</strong></li>
+<li>可通过访问<strong>公网 ID+Dashboard 端口</strong>的方式查看服务端仪表盘</li>
+</ol>
+<h4>部署 frpc<span class="hx-absolute -hx-mt-20" id="部署-frpc"></span>
+    <a href="#%e9%83%a8%e7%bd%b2-frpc" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ol>
+<li>
+<p>在群晖 Nas 的套件中心搜索 <code>Frpc客户端</code> 并安装</p>
+</li>
+<li>
+<p>打开应用（即 frpc 配置文件）</p>
+</li>
+<li>
+<p>配置全局参数</p>
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+  
+
+<pre><code>serverAddr = &#34;0.0.0.0&#34; # 云服务器的公网IP
+serverPort = 1234 # frps配置的服务端口
+auth.method = &#34;token&#34; # 默认token
+auth.token = &#34;token&#34; # frps配置的密钥</code></pre><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+
+  
+</div>
+</li>
+<li>
+<p>配置内网服务（每项服务都单独配置一套）</p>
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+  
+
+<pre><code>[[proxies]]
+name = &#34;app&#34; # 服务名称，不可重复
+type = &#34;tcp&#34; # 常规使用tcp即可
+localIP = &#34;127.0.0.1&#34; # 本机的服务就用127.0.0.1
+localPort = 1234 # 服务在本机的端口号
+remotePort = 1234 # 公网IP的端口，记得在云服务器上放行</code></pre><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+  <button
+    class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+    title="Copy code"
+  >
+    <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"></div>
+    <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"></div>
+  </button>
+</div>
+
+  
+</div>
+</li>
+</ol>
 
         </div>
         
-    <div class="hx-mt-12 hx-mb-8 hx-block hx-text-xs hx-text-gray-500 ltr:hx-text-right rtl:hx-text-left dark:hx-text-gray-400">最后更新于 <time datetime="2024-12-09T00:00:00.000Z">2024-12-09</time></div>
-        
+    <div class="hx-mt-12 hx-mb-8 hx-block hx-text-xs hx-text-gray-500 ltr:hx-text-right rtl:hx-text-left dark:hx-text-gray-400">最后更新于 <time datetime="2024-12-17T00:00:00.000Z">2024-12-17</time></div>
+        <div class="hx-mb-8 hx-flex hx-items-center hx-border-t hx-pt-8 dark:hx-border-neutral-800 contrast-more:hx-border-neutral-400 dark:contrast-more:hx-border-neutral-400 print:hx-hidden"><a
+        href="/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/mtphotos---%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"
+        title="MTPhotos - 好用的照片管理系统"
+        class="hx-flex hx-max-w-[50%] hx-items-center hx-gap-1 hx-py-4 hx-text-base hx-font-medium hx-text-gray-600 hx-transition-colors [word-break:break-word] hover:hx-text-primary-600 dark:hx-text-gray-300 md:hx-text-lg ltr:hx-ml-auto ltr:hx-pl-4 ltr:hx-text-right rtl:hx-mr-auto rtl:hx-pr-4 rtl:hx-text-left"
+      >MTPhotos - 好用的照片管理系统<svg class="hx-inline hx-h-5 hx-shrink-0 rtl:-hx-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
         
       </main>
     </article>
