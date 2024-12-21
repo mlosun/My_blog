@@ -1,10 +1,10 @@
 ---
 created: 2024-10-30
-updated: 2024-12-10
+updated: 2024-12-21
 share: true
 date: 2024-10-30
 lastmod: 2024-12-08
-title: MacOS应用清单
+title: 装机必备-MacOS
 ---
 
 #### 考察中...
