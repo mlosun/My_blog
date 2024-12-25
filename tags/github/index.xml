@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开源笔记 Mlosun.com – Github</title>
-    <link>https://mlosun.github.io/My_blog/tags/github/</link>
+    <link>https://mlosun.com/tags/github/</link>
     <description>Recent content in Github on 开源笔记 Mlosun.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://mlosun.github.io/My_blog/tags/github/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://mlosun.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>使用 PicGo 和 Github 搭建图床</title>
-      <link>https://mlosun.github.io/My_blog/blog/picgo-github/</link>
+      <link>https://mlosun.com/blog/picgo-github/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.github.io/My_blog/blog/picgo-github/</guid>
+      <guid>https://mlosun.com/blog/picgo-github/</guid>
       <description>
         
         
@@ -97,10 +97,10 @@
     
     <item>
       <title>Obsidian &#43; Github &#43; Hugo 一站式笔记发布工作流</title>
-      <link>https://mlosun.github.io/My_blog/blog/obsidian-github-hugo/</link>
+      <link>https://mlosun.com/blog/obsidian-github-hugo/</link>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.github.io/My_blog/blog/obsidian-github-hugo/</guid>
+      <guid>https://mlosun.com/blog/obsidian-github-hugo/</guid>
       <description>
         
         

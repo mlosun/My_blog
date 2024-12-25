@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开源笔记 Mlosun.com – 技术</title>
-    <link>https://mlosun.github.io/My_blog/categories/%E6%8A%80%E6%9C%AF/</link>
+    <link>https://mlosun.com/categories/%E6%8A%80%E6%9C%AF/</link>
     <description>Recent content in 技术 on 开源笔记 Mlosun.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 27 Oct 2024 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://mlosun.github.io/My_blog/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://mlosun.com/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Mac 终端技巧合集</title>
-      <link>https://mlosun.github.io/My_blog/blog/macos-terminal-tips/</link>
+      <link>https://mlosun.com/blog/macos-terminal-tips/</link>
       <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.github.io/My_blog/blog/macos-terminal-tips/</guid>
+      <guid>https://mlosun.com/blog/macos-terminal-tips/</guid>
       <description>
         
         
@@ -243,10 +243,10 @@
     
     <item>
       <title>VS Code 技巧合集</title>
-      <link>https://mlosun.github.io/My_blog/blog/vscode-tips/</link>
+      <link>https://mlosun.com/blog/vscode-tips/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.github.io/My_blog/blog/vscode-tips/</guid>
+      <guid>https://mlosun.com/blog/vscode-tips/</guid>
       <description>
         
         
@@ -258,10 +258,10 @@
     
     <item>
       <title>使用 Portainer 远程管理 Docker</title>
-      <link>https://mlosun.github.io/My_blog/blog/portainer-manage-docker/</link>
+      <link>https://mlosun.com/blog/portainer-manage-docker/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.github.io/My_blog/blog/portainer-manage-docker/</guid>
+      <guid>https://mlosun.com/blog/portainer-manage-docker/</guid>
       <description>
         
         
