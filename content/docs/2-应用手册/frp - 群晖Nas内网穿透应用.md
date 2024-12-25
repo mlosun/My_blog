@@ -1,6 +1,6 @@
 ---
 created: 2024-12-17
-updated: 2024-12-17
+updated: 2024-12-24
 share: true
 date: 2024-12-17
 lastmod: 2024-12-17
@@ -54,3 +54,9 @@ frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP
 	localPort = 1234 # 服务在本机的端口号
 	remotePort = 1234 # 公网IP的端口，记得在云服务器上放行
 	```
+
+#### 借助 frp 进行异地 Synology Drive Client 同步
+
+当我仅将 DSM 的默认端口 `5000` 配置内网服务中并放行云服务器的对应端口时，无论如何也无法在异地外网使用 Synology Drive Client 连接上群晖 Nas。查询后了解原来 Synology Drive Server 是有一个[默认端口](https://kb.synology.cn/zh-cn/DSM/tutorial/What_network_ports_are_used_by_Synology_services)的。
+
+使用默认端口 `6690` 配置好内网服务，并放行云服务器的对应端口，即在异地外网使用 Synology Drive Client 连接，并设置好文件同步。
