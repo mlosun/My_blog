@@ -33,7 +33,7 @@
   <meta itemprop="description" content="介绍 frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议，且支持 P2P 通信。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。">
   <meta itemprop="datePublished" content="2024-12-17T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-12-17T00:00:00+00:00">
-  <meta itemprop="wordCount" content="479">
+  <meta itemprop="wordCount" content="620">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="frp - 群晖Nas内网穿透应用">
   <meta name="twitter:description" content="介绍 frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议，且支持 P2P 通信。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。">
@@ -706,6 +706,10 @@
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
         <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e9%83%a8%e7%bd%b2-frpc">部署 frpc
         </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="ltr:hx-pl-8 rtl:hx-pr-8 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e5%80%9f%e5%8a%a9-frp-%e8%bf%9b%e8%a1%8c%e5%bc%82%e5%9c%b0-synology-drive-client-%e5%90%8c%e6%ad%a5">借助 frp 进行异地 Synology Drive Client 同步
+        </a>
       </li></ul>
       <div class="hx-mt-8 hx-border-t hx-bg-white hx-pt-8 hx-shadow-[0_-12px_16px_white] dark:hx-bg-dark dark:hx-shadow-[0_-12px_16px_#111] hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"><a class="hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50" href="https://github.com/mlosun/My_blog/blob/main/content/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp%20-%20%E7%BE%A4%E6%99%96Nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8.md" target="_blank" rel="noreferer">在 GitHub 上编辑此页 →</a>
         <button aria-hidden="true" id="backToTop" onClick="scrollUp();" class="hx-transition-all hx-duration-75 hx-opacity-0 hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50">
@@ -806,6 +810,9 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行</code></p
 </div>
 </li>
 </ol>
+<h4>借助 frp 进行异地 Synology Drive Client 同步<span class="hx-absolute -hx-mt-20" id="借助-frp-进行异地-synology-drive-client-同步"></span>
+    <a href="#%e5%80%9f%e5%8a%a9-frp-%e8%bf%9b%e8%a1%8c%e5%bc%82%e5%9c%b0-synology-drive-client-%e5%90%8c%e6%ad%a5" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>当我仅将 DSM 的默认端口 <code>5000</code> 配置内网服务中并放行云服务器的对应端口时，无论如何也无法在异地外网使用 Synology Drive Client 连接上群晖 Nas。查询后了解原来 Synology Drive Server 是有一个<a href="https://kb.synology.cn/zh-cn/DSM/tutorial/What_network_ports_are_used_by_Synology_services" target="_blank" rel="noopener">默认端口</a>的。</p>
+<p>使用默认端口 <code>6690</code> 配置好内网服务，并放行云服务器的对应端口，即在异地外网使用 Synology Drive Client 连接，并设置好文件同步。</p>
 
         </div>
         
