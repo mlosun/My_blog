@@ -90,7 +90,7 @@ languages:
 
 # 基础配置
 theme: hextra
-baseURL: "https://mlosun.com/"  # 网站的基础URL
+baseURL: "https://mlosun.github.io/My_blog/"  # 网站的基础URL
 title: "开源笔记 Mlosun.com"  # 网站的标题
 
 # 其他配置
