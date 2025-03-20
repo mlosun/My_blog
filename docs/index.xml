@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开源笔记 Mlosun.com – 介绍</title>
-    <link>https://mlosun.com/docs/</link>
+    <link>https://mlosun.github.io/My_blog/docs/</link>
     <description>Recent content in 介绍 on 开源笔记 Mlosun.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://mlosun.com/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://mlosun.github.io/My_blog/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>frp - 群晖Nas内网穿透应用</title>
-      <link>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp---%E7%BE%A4%E6%99%96nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8/</link>
+      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp---%E7%BE%A4%E6%99%96nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp---%E7%BE%A4%E6%99%96nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/frp---%E7%BE%A4%E6%99%96nas%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E5%BA%94%E7%94%A8/</guid>
       <description>
         
         
@@ -106,10 +106,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>B站视频收藏</title>
-      <link>https://mlosun.com/docs/4-%E5%86%85%E5%AE%B9%E6%94%B6%E8%97%8F/b%E7%AB%99%E8%A7%86%E9%A2%91%E6%94%B6%E8%97%8F/</link>
+      <link>https://mlosun.github.io/My_blog/docs/4-%E5%86%85%E5%AE%B9%E6%94%B6%E8%97%8F/b%E7%AB%99%E8%A7%86%E9%A2%91%E6%94%B6%E8%97%8F/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/4-%E5%86%85%E5%AE%B9%E6%94%B6%E8%97%8F/b%E7%AB%99%E8%A7%86%E9%A2%91%E6%94%B6%E8%97%8F/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/4-%E5%86%85%E5%AE%B9%E6%94%B6%E8%97%8F/b%E7%AB%99%E8%A7%86%E9%A2%91%E6%94%B6%E8%97%8F/</guid>
       <description>
         
         
@@ -125,10 +125,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>MTPhotos - 好用的照片管理系统</title>
-      <link>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/mtphotos---%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</link>
+      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/mtphotos---%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/mtphotos---%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/mtphotos---%E5%A5%BD%E7%94%A8%E7%9A%84%E7%85%A7%E7%89%87%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/</guid>
       <description>
         
         
@@ -169,10 +169,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>什么是数字花园？</title>
-      <link>https://mlosun.com/docs/1-%E6%9C%AC%E7%AB%99%E6%8C%87%E5%8D%97/%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/</link>
+      <link>https://mlosun.github.io/My_blog/docs/1-%E6%9C%AC%E7%AB%99%E6%8C%87%E5%8D%97/%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/1-%E6%9C%AC%E7%AB%99%E6%8C%87%E5%8D%97/%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/1-%E6%9C%AC%E7%AB%99%E6%8C%87%E5%8D%97/%E4%BB%80%E4%B9%88%E6%98%AF%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/</guid>
       <description>
         
         
@@ -211,10 +211,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>值得学习的数字花园</title>
-      <link>https://mlosun.com/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/</link>
+      <link>https://mlosun.github.io/My_blog/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/9-%E5%8D%A1%E7%89%87%E7%AC%94%E8%AE%B0/%E5%80%BC%E5%BE%97%E5%AD%A6%E4%B9%A0%E7%9A%84%E6%95%B0%E5%AD%97%E8%8A%B1%E5%9B%AD/</guid>
       <description>
         
         
@@ -238,10 +238,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>1Panel配置</title>
-      <link>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/1panel%E9%85%8D%E7%BD%AE/</link>
+      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/1panel%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/1panel%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/1panel%E9%85%8D%E7%BD%AE/</guid>
       <description>
         
         
@@ -287,10 +287,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>Memos - 开源自托管轻量笔记</title>
-      <link>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/memos---%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E8%BD%BB%E9%87%8F%E7%AC%94%E8%AE%B0/</link>
+      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/memos---%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E8%BD%BB%E9%87%8F%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/memos---%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E8%BD%BB%E9%87%8F%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/memos---%E5%BC%80%E6%BA%90%E8%87%AA%E6%89%98%E7%AE%A1%E8%BD%BB%E9%87%8F%E7%AC%94%E8%AE%B0/</guid>
       <description>
         
         
@@ -309,10 +309,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>Chrome扩展清单</title>
-      <link>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95/</link>
+      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/chrome%E6%89%A9%E5%B1%95%E6%B8%85%E5%8D%95/</guid>
       <description>
         
         
@@ -327,10 +327,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>Docker</title>
-      <link>https://mlosun.com/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/docker/</link>
+      <link>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/docker/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/docker/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/docker/</guid>
       <description>
         
         
@@ -361,10 +361,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>Linux</title>
-      <link>https://mlosun.com/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/linux/</link>
+      <link>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/linux/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/linux/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/linux/</guid>
       <description>
         
         
@@ -384,10 +384,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>Obsidian插件清单</title>
-      <link>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
+      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/obsidian%E6%8F%92%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
       <description>
         
         
@@ -427,10 +427,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>Python</title>
-      <link>https://mlosun.com/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/python/</link>
+      <link>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/python/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/python/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/3-%E5%AD%A6%E4%B9%A0%E7%BC%96%E7%A8%8B/python/</guid>
       <description>
         
         
@@ -441,10 +441,10 @@ remotePort = 1234 # 公网IP的端口，记得在云服务器上放行&lt;/code&
     
     <item>
       <title>装机必备-MacOS</title>
-      <link>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87-macos/</link>
+      <link>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87-macos/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87-macos/</guid>
+      <guid>https://mlosun.github.io/My_blog/docs/2-%E5%BA%94%E7%94%A8%E6%89%8B%E5%86%8C/%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87-macos/</guid>
       <description>
         
         

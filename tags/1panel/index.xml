@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开源笔记 Mlosun.com – 1Panel</title>
-    <link>https://mlosun.com/tags/1panel/</link>
+    <link>https://mlosun.github.io/My_blog/tags/1panel/</link>
     <description>Recent content in 1Panel on 开源笔记 Mlosun.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 08 Oct 2024 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://mlosun.com/tags/1panel/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://mlosun.github.io/My_blog/tags/1panel/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>解决京东轻量云主机 Debian 12.5.0 镜像无法安装 1Panel 的问题</title>
-      <link>https://mlosun.com/blog/jdcloud-1panel-error/</link>
+      <link>https://mlosun.github.io/My_blog/blog/jdcloud-1panel-error/</link>
       <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/jdcloud-1panel-error/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/jdcloud-1panel-error/</guid>
       <description>
         
         

@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开源笔记 Mlosun.com – Python</title>
-    <link>https://mlosun.com/categories/python/</link>
+    <link>https://mlosun.github.io/My_blog/categories/python/</link>
     <description>Recent content in Python on 开源笔记 Mlosun.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://mlosun.com/categories/python/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://mlosun.github.io/My_blog/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Python 不同入口文件调用同一函数实现不同效果</title>
-      <link>https://mlosun.com/blog/python-func-diff-entry-and-effects/</link>
+      <link>https://mlosun.github.io/My_blog/blog/python-func-diff-entry-and-effects/</link>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/python-func-diff-entry-and-effects/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/python-func-diff-entry-and-effects/</guid>
       <description>
         
         
@@ -87,10 +87,10 @@
     
     <item>
       <title>Python库：pipreqs 生成项目依赖文件</title>
-      <link>https://mlosun.com/blog/python-pipreqs/</link>
+      <link>https://mlosun.github.io/My_blog/blog/python-pipreqs/</link>
       <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://mlosun.com/blog/python-pipreqs/</guid>
+      <guid>https://mlosun.github.io/My_blog/blog/python-pipreqs/</guid>
       <description>
         
         
